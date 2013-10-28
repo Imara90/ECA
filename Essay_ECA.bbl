@@ -7,12 +7,25 @@ M.~Khan A.~Khalid, M.~Haye and S.~Shamail.
 \newblock In {\em Fifth International Conference on Autonomic and Autonomous
   Systems (ICAS)}.
 
+\bibitem{drp}
+J.~Mora A.~Oter, R.~Salvador and L.~Sekanina.
+\newblock A fast reconfigurable 2d hw core architecture on fpgas for evolvable
+  self-adaptive systems.
+\newblock In {\em NASA/ESA Conference on Adaptive Hardware and Systems (AHS)}.
+
 \bibitem{virtex4}
 M.~Santambrogio F.~Cancare and D.~Sciuto.
 \newblock A direct bitstream manipulation approach for virtex4-based evolvable
   systems.
 \newblock In {\em Proceedings of 2010 IEEE International Symposium on Circuits
   and Systems (ISCAS)}.
+
+\bibitem{evolvable}
+H.~Hoffman M. Maggio M.D.~Santambrogio F.~Sironi, A.~Cuoccio.
+\newblock Evolvable systems on reconfigurable architecture via self-aware
+  adaptive applications.
+\newblock In {\em NASA/ESA Conference on Adaptive Hardware and Systems
+  (AHS-2011)}.
 
 \bibitem{fpga}
 H.~Hoffmann et~al. F.~Sironi, M.~Triverio.
@@ -38,5 +51,10 @@ D.~Mange et~al. M.~Sipper, E.~Sanchez.
   hardware systems.
 \newblock {\em IEEE Transactions on Evolutionary Computation}, 1(1):83--97,
   August 2002.
+
+\bibitem{reconfigurable}
+M.D. Santambrogio.
+\newblock From reconfigurable architectures to self-adaptive autonomic systems.
+\newblock In {\em Int. J. Embedded Systems}.
 
 \end{thebibliography}

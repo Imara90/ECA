@@ -1,20 +1,43 @@
 % Discussion of the papers
 
 \section{Discussion of the Different Papers}
+\label{sec:discussion}
 
-[introduction to discussions and seperation of the topics, maybe seperate hardware from software solution from these papers?]
-[Give some small introduction to each paper in 3 sentences and then maximum of 15 for every paper]
+\emph{[introduction to discussions and seperation of the topics, maybe seperate hardware from software solution from these papers?]
+[Give some small introduction to each paper in 3 sentences and then maximum of 15 for every paper]}
 \\
 \\
-Considerable research has already been done in order to efficiently accelerate hardware while still maintaining virtually unlimited adaptability. Software techniques in autonomic computing systems such as hot-swapping and data clustering are discussed in \cite{survey}. These self-aware systems can adapt their behavior on FPGA-based system as discussed in \cite{selfaware}.
+Considerable research has already been done in order to efficiently accelerate hardware while still maintaining virtually unlimited adaptability. 
+Software techniques in autonomic computing systems such as hot-swapping and data clustering are discussed in \cite{survey}. 
+These self-aware systems can adapt their behavior on FPGA-based system as discussed in \cite{selfaware}.
+Other approaches start with a FPGA-based architecture with a reconfigurable core \cite{drp},  added programming schemes and new cell structures \cite{virtex4}, \cite{erlangen} or even bio-inspired hardware using the POE-model \cite{poe}.
+More recent papers put effort a combined approach by either implementing autonomic systems on reconfigurable architectures \cite{reconfigurable} or creating evolvable systems via self-aware applications \cite{evolvable}.
 
-\input{Subsections/POE}					% August, 2002
-\input{Subsections/Erlangen}			% April, 2007
+%% -- Software based papers --------------------------
+
+\subsection{Software based flexible approaches}
+\label{sec:software}
+
 \input{Subsections/Survey}				% April, 2009
-\input{Subsections/Virtex4}				% May, 2010
-\input{Subsections/DPR}					% June, 2011
-\input{Subsections/Reconfigurable}
 \input{Subsections/Selfaware}
+
+%% -- Hardware based papers --------------------------
+\subsection{Hardware based fast approaches}
+\label{sec:hardware}
+
+\input{Subsections/DPR}					% June, 2011
+\input{Subsections/Virtex4}				% May, 2010
+\input{Subsections/Erlangen}			% April, 2007
+\input{Subsections/POE}					% August, 2002
+
+%% -- Combinations based papers ----------------------
+\subsection{Co-design based systems}
+\label{sec:codesign}
+
+\input{Subsections/Reconfigurable}
 \input{Subsections/Evolvable}
+
+
+% not important papers
 %\input{Subsections/Challenge}		% May, 2007, not usefull, just for the intro
 %\input{Subsections/Trustworthy}	% September, 2012
