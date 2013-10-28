@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  28 OCT 2013 17:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  28 OCT 2013 19:07
 entering extended mode
 **S:/School/Embedded*computer*architecture/ECA/Essay_ECA.tex
 ("S:/School/Embedded computer architecture/ECA/Essay_ECA.tex"
@@ -546,13 +546,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--10
-
+Underfull \hbox (badness 6625) in paragraph at lines 5--10
+\OT1/cmr/m/n/10.95 (+20) Considerable re-search has al-ready been
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--10
-
+Underfull \hbox (badness 1199) in paragraph at lines 5--10
+\OT1/cmr/m/n/10.95 (+20) while still main-tain-ing vir-tu-ally un-lim-ited
  []
 
 ("S:\School\Embedded computer architecture\ECA\Subsections/POE.tex"
@@ -591,14 +591,18 @@ Underfull \hbox (badness 6461) in paragraph at lines 9--10
 [5])) ("S:\School\Embedded computer architecture\ECA\Sections/Comparison.tex")
 ("S:\School\Embedded computer architecture\ECA\Sections/Conclusion.tex")
 ("S:\School\Embedded computer architecture\ECA\Essay_ECA.bbl"
-Underfull \vbox (badness 1509) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 4--9
+[][][]\OT1/cmr/m/n/10.95 (+20) M. Khan A. Khalid, M. Haye and
+ []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
  [6]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
-
-("S:\School\Embedded computer architecture\ECA\Essay_ECA.aux")
+ ("S:\School\Embedded computer architecture\ECA\Essay_ECA.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `Essay_ECA.out' has not changed.
@@ -610,13 +614,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 9928 strings out of 494045
- 148878 string characters out of 3148387
- 273280 words of memory out of 3000000
- 12992 multiletter control sequences out of 15000+200000
+ 9932 strings out of 494045
+ 148922 string characters out of 3148387
+ 272280 words of memory out of 3000000
+ 12994 multiletter control sequences out of 15000+200000
  9514 words of font info for 61 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 41i,19n,38p,959b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,18n,38p,962b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -625,9 +629,9 @@ onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb>
-Output written on Essay_ECA.pdf (6 pages, 137608 bytes).
+Output written on Essay_ECA.pdf (6 pages, 139325 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
  26665 words of extra memory for PDF output out of 29859 (max. 10000000)
 

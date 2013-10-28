@@ -1,5 +1,12 @@
 \begin{thebibliography}{1}
 
+\bibitem{survey}
+M.~Khan A.~Khalid, M.~Haye and S.~Shamail.
+\newblock Survey of frameworks, architectures and techniques in autonomic
+  computing.
+\newblock In {\em Fifth International Conference on Autonomic and Autonomous
+  Systems (ICAS)}.
+
 \bibitem{virtex4}
 M.~Santambrogio F.~Cancare and D.~Sciuto.
 \newblock A direct bitstream manipulation approach for virtex4-based evolvable
@@ -12,6 +19,12 @@ H.~Hoffmann et~al. F.~Sironi, M.~Triverio.
 \newblock Self-aware adaptation in fpga-based systems.
 \newblock In {\em International Conference on Field Programmable Logic and
   Applications (FPL)}.
+
+\bibitem{selfaware}
+H.~Hoffmann M. Maggio M.D.~Santambrogio F.~Sironi, M.~Triverio.
+\newblock Self-aware adaptation in fpga-based systems.
+\newblock In {\em 2010 International Conference on Field Programmable Logic and
+  Applications}.
 
 \bibitem{erlangen}
 A.~Ahmadinia M.~Majer, J.~Teich and C.~Bobda.
