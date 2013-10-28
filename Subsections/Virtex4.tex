@@ -1,0 +1,7 @@
+% A Direct Bitstream Manipulation Approach for Virtex4-based Evolvable Systems
+
+In \cite{virtex4} a Virtex4 FPGA implementation is introduced for evolvable systems. Other then earlier versions of Virtex (e.g. the Virtex-II Pro), Virtex4 devices enable two-dimensional dynamic reconfiguration, a feature which considerably reduces the reconfiguration time an thus the evoltuion time (\cite{virtex4}). By using both VRCs (Virtual Reconfigurable Circuits) and direct bitstream manipulation, this new architecture eliminates the biggest limitation of Virtex FPGAs, which is an almost unknown and undocumented bitstream data format and an unsafe configuration schema. 
+
+By implementing a Cartesian Genetic Programming schema and a new cell structure (two 4-input LUTs (Lookup Table) and a multiplexer), the total speed up compared to the Virtex-II has a 16x factor. In addition, the  proposed candidate solution can perform hierarchical evolution. This way, it is possible to preserve the fine-grained evolution typical of the direct bitstream manipulation systems. Also, it is possible to cope with problems requiring a high number of basic blocks.
+
+This Virtex4-based device, which takes advantage of 2D reconfiguration capabilities and direct manipulation of the bitstreams is the first one of its kind. it enables the parallellism between the evaluation and the reconfiguration phase and by speeding-up the reconfiguration process (\cite{virtex4}).

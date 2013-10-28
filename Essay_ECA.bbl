@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{virtex4}
+M.~Santambrogio F.~Cancare and D.~Sciuto.
+\newblock A direct bitstream manipulation approach for virtex4-based evolvable
+  systems.
+\newblock In {\em Proceedings of 2010 IEEE International Symposium on Circuits
+  and Systems (ISCAS)}.
+
+\bibitem{fpga}
+H.~Hoffmann et~al. F.~Sironi, M.~Triverio.
+\newblock Self-aware adaptation in fpga-based systems.
+\newblock In {\em International Conference on Field Programmable Logic and
+  Applications (FPL)}.
+
+\bibitem{erlangen}
+A.~Ahmadinia M.~Majer, J.~Teich and C.~Bobda.
+\newblock The erlangen slot machine: A dynamically reconfigurable fpga-based
+  computer.
+\newblock {\em Journal of VSLI Signal Processing}.
+
+\bibitem{poe}
+D.~Mange et~al. M.~Sipper, E.~Sanchez.
+\newblock A phylogenetic, ontogenetic, and epigenetic view of bio-inspired
+  hardware systems.
+\newblock {\em IEEE Transactions on Evolutionary Computation}, 1(1):83--97,
+  August 2002.
+
+\end{thebibliography}
