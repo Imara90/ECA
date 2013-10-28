@@ -1,0 +1,18 @@
+% From reconfigurable architectures to self-adaptive autonomic systems ++
+
+During the design space exploration phase of system design, overheads associated with reconfiguration and hardware/software interfaces need to evaluated carefully to harvest full potential. The context where different applications demand ever increasing adaptability and performance has already be answered by introducing reconfigurable SoC employing different multiprocessor cores. The increasing prominence of reconfigurable devices within such systems require hardware/software co-design for SoC to address the trade-off between software execution and reconfigurable hardware.
+
+Right now this co-design emphasizes on identifying intensive kernel tasks and implementing these tasks on the reconfigurable hardware. The performance model of the hardware depends on the degree of parallelism while the performance model for software execution is static and does not become affected by external factors.
+There are several modes and interfaces to configure a specific FPGA family: the JTAG cable, the selectMAP interface for daisy chaining the configuration on multiple FPGAs, configuration loading from PROMs or compact ash cards, micro controller based configuration and internal configuration access port (ICAP).
+
+Partial dynamic reconfiguration is a key feature that makes FPGAs unique. This addresses the lack or resources to implement an application and its adaptability needs. It could also be achieved by having a larger resource array, but this is not always viable for non-trivial designs. Reconfigurable hardware taking advantage of partial dynamic reconfiguration is the perfect trade-off between the speed of HW and the flexibility of SW. Other aspects that motivate the use of online self-adaptable systems are the QoS and the reliability and continuity of the service.
+
+Important problems are the lack of availability of software tool chains that take into account partial dynamic reconfiguration, the time overhead the reconfiguration process introduces and the two-dimensional partitioning strategy reconfigurable devices need: spatial and temporal.
+
+Scenario's where self-awareness is useful include: mobile technologies, cloud-computing systems, adaptive and dynamic compilation, multi-core micro-architectures and novel operating systems. Existing adaptive systems often fail because of they are largely ad hoc and fail to incorporate true goals.
+
+Since the introduction of reconfigurable hardware platforms such as FPGAs, the hardware domain shifted into the software domain: the possibility of implementing a reconfigurable architecture increased the flexibility of the hardware.
+
+In online task management the operating system requests for a hardware module by configuring the IP core on the FPGA and creating a communication channel between the module and the software application in a transparent way. This process is managed by two kernel extensions called the reconfiguration support and the centralized reconfiguration manager. This centralized approach allows for module caching or module allocation and to enhance parallel execution of hardware IP-cores.
+
+The results of the system however shows the negative impact of reconfiguration latency in the execution of a functionality, therefor there is a big need to evaluate this overhead carefully, it is not always an improvement. This is basically the result of the paper.

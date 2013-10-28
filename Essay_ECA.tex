@@ -1,12 +1,21 @@
 \documentclass[a4paper, 11pt, twocolumn]{article}
 
 %Handige usepackages voor essays
-\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+%\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+%\usepackage{graphicx} % Required for including pictures
+%\usepackage{wrapfig} % Allows in-line images
+%\usepackage{mathpazo} % Use the Palatino font
+%\usepackage[T1]{fontenc} % Required for accented characters
+%\linespread{1.05} % Change line spacing here, Palatino benefits from a slight increase by default
+
+%Handige usepackages voor essays
+%\usepackage[protrusion=true,expansion=true]{microtype}
+%\usepackage{microtype}
 \usepackage{graphicx} % Required for including pictures
 \usepackage{wrapfig} % Allows in-line images
-\usepackage{mathpazo} % Use the Palatino font
-\usepackage[T1]{fontenc} % Required for accented characters
-\linespread{1.05} % Change line spacing here, Palatino benefits from a slight increase by default
+%\usepackage{mathpazo} % Use the Palatino font
+%\usepackage[T1]{fontenc} % Required for accented characters
+%\linespread{1.05} % Change line spacing here, Palatino benefits from a slight increase by default
 
 %Standaard usepackages
 \usepackage{pdfsync}
@@ -51,8 +60,8 @@
 %	TITLE
 %----------------------------------------------------------------------------------------
 
-\title{\textbf{Essay Embedded Computer Architecture}\\ % Title
-Hardware Implementations of Evolvable Hardware} % Subtitle
+\title{\textbf{Hardware Implementations of Evolvable Systems}\\ % Title
+A critical analysis on self-adaptive autonomic systems on reconfigurable architectures } % Subtitle
 
 \author{\textsc{Imara Speek \\ 
 Aimee Ferouge} % Author
@@ -65,30 +74,31 @@ Aimee Ferouge} % Author
 \begin{document}
 
 \twocolumn[
-  \begin{@twocolumnfalse}
-    \maketitle
-    \begin{abstract}
-			%----------------------------------------------------------------------------------------
-			%	ABSTRACT AND KEYWORDS
-			%----------------------------------------------------------------------------------------
-			
-			%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
-			
-			Morbi tempor congue porta. Proin semper, leo vitae faucibus dictum, metus mauris lacinia lorem, ac congue leo felis eu turpis. Sed nec nunc pellentesque, gravida eros at, porttitor ipsum. Praesent consequat urna a lacus 
-			lobortis ultrices eget ac metus. In tempus hendrerit rhoncus. Mauris dignissim turpis id sollicitudin lacinia. Praesent libero tellus, fringilla nec ullamcorper at, ultrices id nulla. Phasellus placerat a tellus a malesuada.
-			\end{abstract}
-			
-			\hspace*{3,6mm}\textit{Keywords:} bio-inspired , self-aware , computing systems, machine learning % Keywords
-			
-			\vspace{30pt} % Some vertical space between the abstract and first section
-  \end{@twocolumnfalse}
-  ]
+	\begin{@twocolumnfalse}
+	\maketitle
+	\begin{abstract}
+	%----------------------------------------------------------------------------------------
+	%	ABSTRACT AND KEYWORDS
+	%----------------------------------------------------------------------------------------
+
+	%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
+
+	Morbi tempor congue porta. Proin semper, leo vitae faucibus dictum, metus mauris lacinia lorem, ac congue leo felis eu turpis. Sed nec nunc pellentesque, gravida eros a. 
+	lobortis ultrices eget ac metus. In tempus hendrerit rhoncus. Mauris dignissim turpis id sollicitudin lacinia. Praesent libero tellus, fringilla nec ullamcorper at, ultrices i nulla. Phasellus 			placerat a tellus a malesuada.
+	\end{abstract}
+
+	\hspace*{3,6mm}\textit{Keywords:} bio-inspired , self-aware , computing systems, machine learning % Keywords
+		
+	\vspace{30pt} % Some vertical space between the abstract and first section
+	\end{@twocolumnfalse}
+]
 
 %----------------------------------------------------------------------------------------
 %	ESSAY BODY
 %----------------------------------------------------------------------------------------
 
 \input{Sections/Introduction}
+\input{Sections/Prior}
 \input{Sections/Discussion}
 \input{Sections/Comparison}
 \input{Sections/Conclusion}

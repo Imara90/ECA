@@ -1,0 +1,266 @@
+%%
+%% This is file `microtype.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% microtype.dtx  (with options: `package,lua')
+%% 
+%% ------------------------------------------------------------------------
+%% 
+%%                       The `microtype' package
+%%        An interface to the micro-typographic extensions of pdfTeX
+%%           Copyright (c) 2004--2010  R Schlicht <w.m.l@gmx.net>
+%% 
+%% This work may be distributed and/or modified under the conditions of the
+%% LaTeX Project Public License, either version 1.3c of this license or (at
+%% your option) any later version. The latest version of this license is in:
+%% http://www.latex-project.org/lppl.txt, and version 1.3c or later is part
+%% of all distributions of LaTeX version 2005/12/01 or later.
+%% 
+%% This work has the LPPL maintenance status `author-maintained'.
+%% 
+%% This work consists of the files microtype.dtx and microtype.ins and the
+%% derived files microtype.sty, microtype.lua and letterspace.sty.
+%% 
+%% ------------------------------------------------------------------------
+%% 
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage
+  {microtype}
+  [2010/01/10 v2.4
+   Micro-typography with pdfTeX
+  (RS)]
+\def\MT@MT
+  {microtype}
+\let\MT@restore@catcodes\@empty
+\def\MT@fix@catcode#1#2{%
+  \edef\MT@restore@catcodes{%
+    \MT@restore@catcodes
+    \catcode#1 \the\catcode#1\relax
+  }%
+  \catcode#1 #2\relax
+}
+\MT@fix@catcode{17}{14}% ^^Q (comment)
+\MT@fix@catcode{24} {9}% ^^X (ignore)
+\MT@fix@catcode{33}{12}% !
+\MT@fix@catcode{34}{12}% "
+\MT@fix@catcode{36} {3}% $ (math shift)
+\MT@fix@catcode{39}{12}% '
+\MT@fix@catcode{42}{12}% *
+\MT@fix@catcode{43}{12}% +
+\MT@fix@catcode{44}{12}% ,
+\MT@fix@catcode{45}{12}% -
+\MT@fix@catcode{58}{12}% :
+\MT@fix@catcode{60}{12}% <
+\MT@fix@catcode{61}{12}% =
+\MT@fix@catcode{62}{12}% >
+\MT@fix@catcode{63}{12}% ?
+\MT@fix@catcode{94} {7}% ^ (superscript)
+\MT@fix@catcode{96}{12}% `
+\MT@fix@catcode{124}{12}% |
+\newcommand*\DeclareMicrotypeSet[3][]{}
+\newcommand*\UseMicrotypeSet[2][]{}
+\newcommand*\DeclareMicrotypeSetDefault[2][]{}
+\newcommand*\SetProtrusion[3][]{}
+\newcommand*\SetExpansion[3][]{}
+\newcommand*\SetTracking[3][]{}
+\newcommand*\SetExtraKerning[3][]{}
+\newcommand*\SetExtraSpacing[3][]{}
+\newcommand*\DisableLigatures[2][]{}
+\newcommand*\DeclareCharacterInheritance[3][]{}
+\newcommand*\DeclareMicrotypeVariants[1]{}
+\newcommand*\DeclareMicrotypeAlias[2]{}
+\newcommand*\LoadMicrotypeFile[1]{}
+\newcommand*\DeclareMicrotypeBabelHook[2]{}
+\newcommand*\microtypesetup[1]{}
+\newcommand*\microtypecontext[1]{}
+\newcommand*\textmicrotypecontext[2]{#2}
+\@ifpackageloaded{letterspace}{\let\MT@textls\relax}{%
+\newcommand*\lsstyle{}
+\newcommand\textls[2][]{}
+\def\textls#1#{}
+\newcommand*\lslig[1]{#1}
+}
+\def\DeclareMicrotypeSet#1#{\@gobbletwo}
+\def\DeclareMicrotypeVariants#1#{\@gobble}
+\@onlypreamble\DeclareMicrotypeSet
+\@onlypreamble\UseMicrotypeSet
+\@onlypreamble\DeclareMicrotypeSetDefault
+\@onlypreamble\DisableLigatures
+\@onlypreamble\DeclareMicrotypeVariants
+\@onlypreamble\DeclareMicrotypeBabelHook
+\def\MT@old@cmd#1#2{%
+  \newcommand*#1{\MT@warning{%
+    \string#1 is deprecated. Please use\MessageBreak
+    \string#2 instead}%
+    \let #1#2#2}}
+\MT@old@cmd\DeclareMicroTypeAlias\DeclareMicrotypeAlias
+\MT@old@cmd\DeclareMicroTypeSet  \DeclareMicrotypeSet
+\MT@old@cmd\UseMicroTypeSet      \UseMicrotypeSet
+\MT@old@cmd\LoadMicroTypeFile    \LoadMicrotypeFile
+\def\MT@warning{\PackageWarning\MT@MT}
+\def\MT@warning@nl#1{\MT@warning{#1\@gobble}}
+\def\MT@info{\PackageInfo\MT@MT}
+\def\MT@info@nl#1{\MT@info{#1\@gobble}}
+\let\MT@vinfo\@gobble
+\def\MT@error{\PackageError\MT@MT}
+\def\MT@warn@err#1{\MT@error{#1}{%
+  This error message appears because you loaded the `\MT@MT'\MessageBreak
+  package with the option `verbose=errors'. Consult the documentation\MessageBreak
+  in \MT@MT.pdf to find out what went wrong.}}
+\def\MT@pdftex@no{0}
+\ifx\normalpdftexversion\@undefined \else
+  \let\pdftexversion \normalpdftexversion
+  \let\pdftexrevision\normalpdftexrevision
+  \let\pdfoutput     \normalpdfoutput
+\fi
+\ifx\pdftexversion\@undefined \else
+  \ifx\pdftexversion\relax \else
+    \def\MT@pdftex@no{7}
+    \ifnum\pdftexversion = 140
+      \ifnum\pdftexrevision < 4
+        \def\MT@pdftex@no{6}
+      \fi
+    \else
+      \ifnum\pdftexversion < 140
+        \def\MT@pdftex@no{5}
+        \ifnum\pdftexversion < 130
+          \def\MT@pdftex@no{4}
+          \ifnum\pdftexversion < 120
+            \def\MT@pdftex@no{3}
+            \ifnum\pdftexversion = 14
+              \ifnum \expandafter`\pdftexrevision < `h
+                \def\MT@pdftex@no{2}
+                \ifnum \expandafter`\pdftexrevision < `f
+                  \def\MT@pdftex@no{1}
+                \fi
+              \fi
+            \else
+              \ifnum\pdftexversion < 14
+                \def\MT@pdftex@no{1}
+              \fi
+            \fi
+          \fi
+        \fi
+      \fi
+    \fi
+  \fi
+\fi
+\def\MT@clear@options{%
+  \AtEndOfPackage{\let\@unprocessedoptions\relax}%
+  \let\CurrentOption\@empty
+}
+\ifnum\MT@pdftex@no <
+    2
+  \MT@warning@nl{You
+    \ifcase\MT@pdftex@no
+      don't seem to be using pdftex.\MessageBreak
+      `\MT@MT' only works with pdftex.\MessageBreak
+      Try running `pdflatex' instead of
+        `\ifx\XeTeXversion\@undefined\else xe\fi latex'%
+    \else
+      are using a pdftex version older than
+      0.14f%
+      .\MessageBreak
+      `\MT@MT' does not work with this version.\MessageBreak
+      Please install a newer version of pdftex%
+    \fi
+  }
+  \MT@clear@options\MT@restore@catcodes
+\endinput\fi
+\RequirePackage{keyval}[1997/11/10]
+\newtoks\MT@toks
+\newif\ifMT@if@
+\newif\ifMT@protrusion
+\newif\ifMT@expansion
+\newif\ifMT@auto
+\newif\ifMT@selected
+\newif\ifMT@noligatures
+\newif\ifMT@draft
+\newif\ifMT@spacing
+\newif\ifMT@kerning
+\newif\ifMT@tracking
+\newif\ifMT@babel
+\let\MT@pr@level\tw@
+\let\MT@ex@level\tw@
+\let\MT@pr@factor\@m
+\let\MT@ex@factor\@m
+\let\MT@sp@factor\@m
+\let\MT@kn@factor\@m
+\let\MT@pr@unit\@empty
+\let\MT@sp@unit\m@ne
+\def\MT@kn@unit{1em}
+\let\MT@stretch\m@ne
+\let\MT@shrink \m@ne
+\let\MT@step   \m@ne
+\def\MT@pr@min{-\@m}
+\let\MT@pr@max\@m
+\let\MT@ex@min\z@
+\let\MT@ex@max\@m
+\def\MT@sp@min{-\@m}
+\let\MT@sp@max\@m
+\def\MT@kn@min{-\@m}
+\let\MT@kn@max\@m
+\def\MT@tr@min{-\@m}
+\let\MT@tr@max\@m
+\def\MT@factor@default{1000 }
+\def\MT@stretch@default{20 }
+\def\MT@shrink@default{20 }
+\def\MT@step@default{4 }
+\let\MT@letterspace\m@ne
+\def\MT@letterspace@default{100}
+\newif\ifMT@document
+\ifcase 0%
+  \ifx\eTeXversion\@undefined 1\else
+    \ifx\eTeXversion\relax    1\else
+      \ifcase\eTeXversion     1\fi
+    \fi
+  \fi
+\else
+  \catcode`\^^Q=9 \catcode`\^^X=14
+\fi
+\def\MT@requires@pdftex#1{%
+  \ifnum\MT@pdftex@no<#1 \expandafter\@secondoftwo\else\expandafter\@firstoftwo\fi
+}
+\let\MT@requires@luatex\@secondoftwo
+\ifx\directlua\@undefined \else
+  \ifx\directlua\relax \else
+    \let\MT@requires@luatex\@firstoftwo
+  \fi
+\fi
+\MT@requires@luatex{
+\ifnum\luatexversion<36
+  \def\MT@lua{\directlua0}
+\else
+  \def\MT@lua{\directlua}
+\fi
+\MT@lua{
+  if (luatextra and luatextra.use_module) then
+    luatextra.use_module("microtype")
+  else
+    dofile(kpse.find_file("microtype.lua"))
+  end}
+}\relax
+\def\MT@glet{\global\let}
+\def\MT@exp@cs#1#2{\expandafter#1\csname#2\endcsname}
+\def\MT@exp@gcs#1#2{\begingroup\expandafter\endgroup\expandafter#1\csname#2\endcsname}
+\def\MT@def@n{\MT@exp@cs\def}
+\def\MT@gdef@n{\MT@exp@gcs\gdef}
+\def\MT@edef@n{\MT@exp@cs\edef}
+\def\MT@xdef@n{\MT@exp@gcs\xdef}
+\def\MT@let@nc{\MT@exp@cs\let}
+\def\MT@glet@nc{\MT@exp@gcs\MT@glet}
+\def\MT@let@cn#1#2{\expandafter\let\expandafter#1\csname #2\endcsname}
+\def\MT@let@nn{\MT@exp@cs\MT@let@cn}
+\def\MT@glet@nn{\MT@exp@gcs{\global\expandafter\MT@let@cn}}
+\def\MT@@font{\expandafter\string\MT@font}
+\def\MT@exp@one@n#1#2{\expandafter#1\expandafter{#2}}
+\def\MT@exp@two@c#1{\expandafter\expandafter\expandafter#1\expandafter}
+\def\MT@exp@two@n#1#2#3{%
+  \expandafter\expandafter\expandafter
+    #1\expandafter\expandafter\expandafter
+      {\expandafter#2\expandafter}\expandafter{#3}}
+\def\MT@ifdefined@c@T#1{%
+^^X  \ifdefined#1\expandafter\@firstofone\else\expandafter\@gobble\fi
+^^Q  \ifx#1\@undefined\expandafter\@gobble\else\expandafter
