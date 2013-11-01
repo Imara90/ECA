@@ -1,0 +1,20 @@
+% Discussion of different hardware techniques
+% Aimee, 1 nov 2013
+
+\subsubsection{Virtex-4 based FPGA}
+On Virtex-4 FPGAs, two-dimensional dynamic reconfiguration is supported. This 2D architecture of the reconfiguration core speeds up the reconfiguration time and deploys more candidate solutions (arrays of bidimensional cells). Candidate solutions are chosen because of their internal flip-flops, which use direct bitstream manipulation. A new cell structure, using LUTs and a MUX, combined with the 2D-reconfiguration mechanism, causes a speed up of 16x factor. These features enhanced the system's performance by enabling the parallelism between the evaluation and the reconfiguraion phase and by speeding-up the reconfiguration process. For this system, only Virtex-4 or Virtex-5 FPGAs can be used, since Virtex-II does not support 2D reconfiguation.
+
+A drawback of using Virtex FPGAs are the feed-through signales. Each module must be implemented with all possible feed-through channels  needed by other modules. Because we only know at run-time which module needs to feed through a signal, many channels reserved for a possible feed-through become redundant. Also, modules accessing external pins are no longer relocatable, because they are complied for fixed locations where a direct signal line to these pins is established (\cite{erlangen}).
+
+
+\subsubsection{2D systolic approach for RC and optimized DPR RE}
+The architecture used for the Reconfiguration Core (RC) of the FPGA is a 2D systolic array of Processing Elemens (PEs). A major feature is the possibility to change the functionality of the PEs by means of DPR. This confers the ysstem upon adaptiation capabilities. The outputs of the PEs (east and south side) are connected to the close neighbour's input (west and north side). This systolic approach of communication reduces the reconfiguration time and makes the architecture easy to extend.
+
+By storing only the body of the bitstream, overclocking the FPGA and including internal memory the reconfiguration time is greatly reduced. By adding the header and the tail of the bitstream at runtime, it allowed having a unique bitstream for each PE that can be configured in any position of the array. Also, bitstream reduction reduces the data transference time from the external memory.
+
+\subsubsection{Erlangen Slot Machine}
+The architecture of the Erlangen Slot Machine deals with three drawbacks of FPGAs, being fixed pins which are spread around the device (I/O dilemma0, the inter-module dilemma and the local memory dilemma. First, the I/O dilemma caused by fixed pins spread around the device is solved by connecting all bottom pins from the FPGA to an interface controller realizing a crossbar. It connects FPGA pins to peripherals automatically based on the slot position of a placed module. This I/O rerouting principle is done without reconfiguration of the crossbar FPGA.
+
+Second, the memory dilemma has been solved. In normal Virtex-II FPGAs, a module can only occupy the memory inside its physical slot boundary. Storing data in off-chip memories is therefore the only solution. In the ESM, six SRAM banks are connected to the FPGA. Since these banks are placed at the opposite side as the crossbar, a module will connect to peripherals from one side, while the other side will be used for temporally storing computational data. In order to use a SRAM bank (called a slot), the module must have at least a width of three micro-slots, in which the total device is divided. This organization simplifies relocation, enabling a partially reconfigurable computing system. Also, equal resources will be available for each module.
+
+Finally, the inter-module communication dilemma is dealt with. Dynamically routing signal lines on the hardware is a very difficult task. The ESM uses a combination of bus-macros, shared memory, RMB (Reconfigurable Multiple Bus) and a crossbar to take away the limiting factor for the wide use of partial dynamic reconfiguration.
