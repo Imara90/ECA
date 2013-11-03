@@ -1,4 +1,8 @@
 \subsection{Self-adapting techniques}
 \label{sec:selfadapting}
 
-The final step of the closed-control loop is acting upon the decision that is made. Changing the operating of a evolvable system to meet specific performance goals can be done by modifying either the underlying heterogeneous architecture, the operating systems and the self-adaptive applications \cite{evolvable}
+The final step of the closed-control loop is acting upon the decision that is made. Changing the operating of a evolvable system to meet specific performance goals can be done by modifying either the underlying heterogeneous architecture, the operating systems and the self-adaptive applications \cite{evolvable}. A fundamental part of a self-aware adaptive computing system is the ability to switch between implementations of the same functionality while the system is running. These implementation can either switch from software to hardware, running different applications, from hardware to software or considering different configurations. \cite{selfaware}
+
+Criteria to choose between different implementations can be expected performance, available resources, input data type and size, the functionalities that are already implemented and the availability of hardware components. The \emph{hot-swap mechanism} is a popular tool to inplement self-configuration and self-optimization. It provides the ability of switching among different implementations of the same functionality in a transparent fashion. However state quiescence and state translation are two big issues when using this mechanism and need a framework solution to be reliable. 
+
+Other works present \emph{Partial Dynamic Reconfiguration} \cite{reconfigurable} which only uses the already preconfigured elements to reduce the amount overhead introduces when setting up elements to be configured. 
