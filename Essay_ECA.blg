@@ -46,34 +46,39 @@ You're missing a field name---line 115 of file References.bib
  :     %editor   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 130 of file References.bib
+You're missing a field name---line 131 of file References.bib
  :     
  :     %editor   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 145 of file References.bib
+You're missing a field name---line 147 of file References.bib
  :     
  :     %editor   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 161 of file References.bib
+You're missing a field name---line 163 of file References.bib
  :     
  :     %editor   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 177 of file References.bib
+You're missing a field name---line 179 of file References.bib
  :     
  :     %editor   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 193 of file References.bib
+You're missing a field name---line 195 of file References.bib
  :     
  :     %editor   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 209 of file References.bib
+You're missing a field name---line 211 of file References.bib
  :     
  :     %editor   = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Illegal end of database file---line 238 of file References.bib
+ : 
+ : 
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "why"
@@ -82,17 +87,9 @@ Too many commas in name 1 of "F. Sironi, M. Triverio, H. Hoffmann, M. Maggio, M.
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "F. Sironi, M. Triverio, H. Hoffmann, M. Maggio, M.D. Santambrogio" for entry selfaware
 while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "F. Sironi, A. Cuoccio, H. Hoffman, M. Maggio, M.D. Santambrogio" for entry evolvable
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "F. Sironi, A. Cuoccio, H. Hoffman, M. Maggio, M.D. Santambrogio" for entry evolvable
-while executing---line 1049 of file plain.bst
 Warning--empty year in survey
 Warning--empty year in drp
 Warning--empty year in virtex4
-Too many commas in name 1 of "F. Sironi, A. Cuoccio, H. Hoffman, M. Maggio, M.D. Santambrogio" for entry evolvable
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "F. Sironi, A. Cuoccio, H. Hoffman, M. Maggio, M.D. Santambrogio" for entry evolvable
-while executing---line 1090 of file plain.bst
 Warning--empty year in evolvable
 Warning--empty year in fpga
 Too many commas in name 1 of "F. Sironi, M. Triverio, H. Hoffmann, M. Maggio, M.D. Santambrogio" for entry selfaware
@@ -101,5 +98,7 @@ Too many commas in name 1 of "F. Sironi, M. Triverio, H. Hoffmann, M. Maggio, M.
 while executing---line 1090 of file plain.bst
 Warning--empty year in selfaware
 Warning--empty year in erlangen
+Warning--empty booktitle in autonomic
+Warning--empty year in autonomic
 Warning--empty year in reconfigurable
-(There were 23 error messages)
+(There were 20 error messages)

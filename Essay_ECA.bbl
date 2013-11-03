@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{survey}
 M.~Khan A.~Khalid, M.~Haye and S.~Shamail.
@@ -21,7 +21,7 @@ M.~Santambrogio F.~Cancare and D.~Sciuto.
   and Systems (ISCAS)}.
 
 \bibitem{evolvable}
-H.~Hoffman M. Maggio M.D.~Santambrogio F.~Sironi, A.~Cuoccio.
+H.~Hoffman F.~Sironi, A.~Cuoccio and M.D.~Santambrogio M.~Maggio.
 \newblock Evolvable systems on reconfigurable architecture via self-aware
   adaptive applications.
 \newblock In {\em NASA/ESA Conference on Adaptive Hardware and Systems
@@ -51,6 +51,10 @@ D.~Mange et~al. M.~Sipper, E.~Sanchez.
   hardware systems.
 \newblock {\em IEEE Transactions on Evolutionary Computation}, 1(1):83--97,
   August 2002.
+
+\bibitem{autonomic}
+D~R.~Sterritt and Bustard.
+\newblock Towards an autonomic computing environment.
 
 \bibitem{reconfigurable}
 M.D. Santambrogio.
