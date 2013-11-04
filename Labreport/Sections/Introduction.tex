@@ -37,7 +37,7 @@ Profiling the x264 execution for the .y4m files that are provided by the lab, th
 \label{tab:chart}
 \end{table}
 
-Given the chart in \ref{tab:chart}, we decide to extract the x264\_pixel\_satd\_8x4 kernel, since its share in execution time increases as the files become larger. This kernel contains the Sum of Transformed Differences function for 8x4 pixel blocks.
+Given the chart in \ref{tab:chart}, we decide to extract the x264\_pixel\_satd\_8x4 kernel, since its share in execution time increases as the files become larger. This kernel evaluates the Sum of Transformed Differences between a 8x4 pixel block from the input stream and reference blocks using 4x4 transform (Hadamard???).
 
 \subsection{Executing an Application on the Development Board and $\rho$-VEX}
 
@@ -45,10 +45,29 @@ When executing ./configure, a file is created for configuration of the applicati
 
 After doing this, the application now can be 'made' for MicroBlaze by first moving to the Scratchbox 2 environment for MicroBlaze and then execute the make command. Fig. \ref{fig:lelijk} shows a block diagram of both the platforms.
 
+% -- Plaatje Structuur Practicum ------------------------------
 \begin{figure}[htb]%
 \includegraphics[width=\columnwidth]{Pictures/Platform_paint}%
 \caption{Block diagram of the Virtual Machine and the ERA platform}%
 \label{lelijk}%
 \end{figure}
 
-En nu ga ik lunchen.
+In order to run the application on the MicroBlaze host processor, the x264 executable must be compressed along with an input stream in a tar.gz file. This file can be put, via the FPGA host machine, on one of the three FPGAs using the scp, ftp and put command. For the programmer to connect to the development board, one must use the ssh and telnet command. See also fig \ref{fig:hoppen}.
+
+% -- Plaatje Ubuntu-commando's ------------------------------
+\begin{figure}[htb]%
+\includegraphics[width=\columnwidth]{Pictures/hop}%
+\caption{Ubuntu commands for putting files on and navigating to the FPGAs}%
+\label{fig:hoppen}%
+\end{figure}
+
+For the first lab, the satd\_8x4 kernel has to be:
+\begin{itemize}
+	\item extracted into a separate file
+	\item supplemented to a proper .c file which can be compiled and run using the $\rho$-VEX
+	\item included in the makefile that creates a bytecode and bytedata file of the kernel
+	\item debugged
+\end{itemize}
+
+Looking back, the debugging part has been chasing us all the way through the lab. Not only did we suffer from bugs in our source code, the $\rho$-VEX itself did also have shortcomings that had to be circumvented by downloading several fixes, competing for FPGA availability and break downs of the entire host machine due to unsufficient capacity for the amount of students.
+

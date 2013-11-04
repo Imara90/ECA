@@ -1,0 +1,31 @@
+% -- Implementation ---------------------------------------
+
+\section{Implementation}
+
+Our extracted kernel can be found in \ref{app:satd}. In order to make the extracted kernel qualified for compilation and execution, a few things have to be altered. First, the new file has to be recognized by the makefile in the rovex-examples directory. By executing make byte-<kernel> two files are created:
+\begin{itemize}
+	\item bytecode, containing all the intstructions to be executed by the $\rho$-VEX
+	\item bytedata, containing the pixels of the input stream
+\end{itemize}
+
+Second, some type definitions have to be made. Originally, pixel\_satd\_8x4 resides in the pixel.c file of the x264 application. When extracting this kernel, all prior knowledge is lost and has to be defined again. Then, in order to make the kernel compile and run on the $\rho$-VEX, the development board has to be reset and started. Bytecode has to be written to the instruction memory (rvex-imemory) and bytedata to the data memory (rvex-dmemory). Finally, the calculated result should be returned to the host. Figure X shows the $\rho$-VEX memory layout for our kernel.
+
+\subsection{Adjusting the makefile}
+
+In order to make the makefile recognize the extracted kernel, the file can simply be added to the EXECUTABLES. Other files are already in the makefile (e.g. adpcm), but these can be removed since we will not need them for our application. An important issue is the difference between logical memory and physical memory. While the first address of a logical memory is obviously zero, the physical memory can have the first part of the register being occupied by the operating system creating a so-called stride. For the $\rho$-VEX, this stride appeared to be 120. Thus, when writing for example the result of the kernel to the logical address '0', it actually should be written to the physical address '120' of the data memory. This can be done using \_\_DATA\_START to indicate the start address.
+
+Despite the fact that this is a rather simplistic operation, it took us some struggling to have this action confirmed as correct. For example, we were told to remove the AUTOINLINE flag which resulted in a lot of wrong hexdumps. Also, half way the lab a fix has been made to eliminate the issue of the stride. All references to \_\_DATA\_START had to be removed again, which felt like we had wasted lots of time. Unfortunately, we still had major problems getting the application to run correctly. As it turned out, the fix had only affected the 'home' directory. In order to avoid conflicting files, we had created a separate folder named 'lab2' from where we executed the application. Due to this, the fix did not reach our code and thus did not eliminate the stride issue.
+
+\subsection{Type Definition}
+
+As stated earlier, an extracted kernel is unable to obtain information from previous code. Consequently, all parameters have to be defined:
+
+% -- Type Definitions ---------------------------------------
+\begin{table}%
+\begin{tabular}{lll}
+	\bf{Parameter} 	& \bf{Type definition} 	& \bf{Motivation}\\ \cline{1-3}
+	intptr\_t				&	unsigned int					& bla bla tukken.............
+\end{tabular}
+\caption{}
+\label{}
+\end{table}
