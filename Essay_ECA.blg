@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Essay_ECA.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: C:\Users\Aimee\ECA\Essay_ECA.aux
 The style file: plain.bst
 Database file #1: References.bib
 You're missing a field name---line 5 of file References.bib
@@ -82,13 +82,13 @@ Illegal end of database file---line 238 of file References.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "why"
-Warning--I didn't find a database entry for "dpr"
+Warning--I didn't find a database entry for "drp"
 Too many commas in name 1 of "F. Sironi, M. Triverio, H. Hoffmann, M. Maggio, M.D. Santambrogio" for entry selfaware
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "F. Sironi, M. Triverio, H. Hoffmann, M. Maggio, M.D. Santambrogio" for entry selfaware
 while executing---line 1049 of file plain.bst
 Warning--empty year in survey
-Warning--empty year in drp
+Warning--empty year in dpr
 Warning--empty year in virtex4
 Warning--empty year in evolvable
 Warning--empty year in fpga

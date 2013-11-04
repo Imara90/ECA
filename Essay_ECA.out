@@ -8,9 +8,10 @@
 \BOOKMARK [2][-]{subsection.4.1}{Self-awareness techniques}{section.4}% 8
 \BOOKMARK [2][-]{subsection.4.2}{Decision making techniques}{section.4}% 9
 \BOOKMARK [2][-]{subsection.4.3}{Self-adapting techniques}{section.4}% 10
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Virtex-4 based FPGA}{subsection.4.3}% 11
-\BOOKMARK [3][-]{subsubsection.4.3.2}{2D systolic approach for RC and optimized DPR RE}{subsection.4.3}% 12
-\BOOKMARK [3][-]{subsubsection.4.3.3}{Erlangen Slot Machine}{subsection.4.3}% 13
-\BOOKMARK [1][-]{section.5}{Proposed adaptive system design}{}% 14
-\BOOKMARK [1][-]{section.6}{Related works}{}% 15
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 16
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Virtex FPGA with a Two-Dimensional Reconfiguration Core}{subsection.4.3}% 11
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Candidate Solutions and Direct Bitstream Manipulation}{subsection.4.3}% 12
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Systolic array of PEs and Optimized DPR}{subsection.4.3}% 13
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Erlangen Slot Machine}{subsection.4.3}% 14
+\BOOKMARK [1][-]{section.5}{Proposed adaptive system design}{}% 15
+\BOOKMARK [1][-]{section.6}{Related works}{}% 16
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 17
