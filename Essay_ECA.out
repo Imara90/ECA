@@ -1,11 +1,11 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Prior knowledge}{}% 2
+\BOOKMARK [1][-]{section.2}{Fundamental knowledge}{}% 2
 \BOOKMARK [1][-]{section.3}{Discussion of the Different Papers}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Software based flexible approaches}{section.3}% 4
 \BOOKMARK [2][-]{subsection.3.2}{Hardware based fast approaches}{section.3}% 5
 \BOOKMARK [2][-]{subsection.3.3}{Co-design based systems}{section.3}% 6
 \BOOKMARK [1][-]{section.4}{Analysis of techniques}{}% 7
-\BOOKMARK [2][-]{subsection.4.1}{Self-awareness techniques}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Self-monitoring techniques}{section.4}% 8
 \BOOKMARK [2][-]{subsection.4.2}{Decision making techniques}{section.4}% 9
 \BOOKMARK [2][-]{subsection.4.3}{Self-adapting techniques}{section.4}% 10
 \BOOKMARK [3][-]{subsubsection.4.3.1}{Virtex FPGA with a Two-Dimensional Reconfiguration Core}{subsection.4.3}% 11
