@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  4 NOV 2013 23:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  5 NOV 2013 00:33
 entering extended mode
 **S:/School/Embedded*computer*architecture/ECA/Essay_ECA.tex
 ("S:/School/Embedded computer architecture/ECA/Essay_ECA.tex"
@@ -483,42 +483,42 @@ Certain file hooks might now be dysfunctional! on input line 74.
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/17.28'. Switching off
-(microtype)                protrusion for this font on input line 96.
+(microtype)                protrusion for this font on input line 95.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/bx/n/17.28'. Switching off
-(microtype)                protrusion for this font on input line 96.
+(microtype)                protrusion for this font on input line 95.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/12'. Switching off
-(microtype)                protrusion for this font on input line 96.
+(microtype)                protrusion for this font on input line 95.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/sc/12'. Switching off
-(microtype)                protrusion for this font on input line 96.
+(microtype)                protrusion for this font on input line 95.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/it/12'. Switching off
-(microtype)                protrusion for this font on input line 96.
+(microtype)                protrusion for this font on input line 95.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/10'. Switching off
-(microtype)                protrusion for this font on input line 96.
+(microtype)                protrusion for this font on input line 95.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/bx/n/10'. Switching off
-(microtype)                protrusion for this font on input line 96.
+(microtype)                protrusion for this font on input line 95.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/it/10.95'. Switching off
-(microtype)                protrusion for this font on input line 96.
+(microtype)                protrusion for this font on input line 95.
 
 ("S:\School\Embedded computer architecture\ECA\Sections/Introduction.tex"
 
@@ -576,9 +576,9 @@ x"
 
 LaTeX Warning: Citation `sec:selfaware' on page 4 undefined on input line 5.
 
-) ("S:\School\Embedded computer architecture\ECA\Subsections/Decisions.tex")
-("S:\School\Embedded computer architecture\ECA\Subsections/Selfadapting.tex"
-[4] <Pictures/self-aware.PNG, id=142, 813.0375pt x 499.8675pt>
+) ("S:\School\Embedded computer architecture\ECA\Subsections/Decisions.tex"
+[4]) ("S:\School\Embedded computer architecture\ECA\Subsections/Selfadapting.te
+x" <Pictures/self-aware.PNG, id=142, 813.0375pt x 499.8675pt>
 File: Pictures/self-aware.PNG Graphic file (type png)
 
 <use Pictures/self-aware.PNG>
@@ -607,6 +607,9 @@ File: Pictures/2D_architecture.png Graphic file (type png)
 Package pdftex.def Info: Pictures/2D_architecture.png used on input line 12.
 (pdftex.def)             Requested size: 221.0pt x 156.23999pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 <Pictures/candidate.png, id=167, 365.56575pt x 336.65775pt>
 File: Pictures/candidate.png Graphic file (type png)
 
@@ -620,15 +623,21 @@ Package pdftex.def Info: Pictures/candidate.png used on input line 23.
 l.26 \end{figure}
                  
 ? 
-[6 <S:/School/Embedded computer architecture/ECA/Pictures/2D_architecture.png> 
-<S:/School/Embedded computer architecture/ECA/Pictures/candidate.png>]
-<Pictures/PE.png, id=179, 260.172pt x 275.8305pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <S:/School/Embedded computer architecture/ECA/Pictures/2D_architecture.png>
+ <S:/School/Embedded computer architecture/ECA/Pictures/candidate.png>]
+<Pictures/PE.png, id=178, 260.172pt x 275.8305pt>
 File: Pictures/PE.png Graphic file (type png)
  <use Pictures/PE.png>
 Package pdftex.def Info: Pictures/PE.png used on input line 36.
 (pdftex.def)             Requested size: 221.0pt x 234.31392pt.
 
-<Pictures/erlangen.png, id=187, 690.1785pt x 414.95026pt>
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+ [7 <S:/School/Embedded computer architecture/ECA/Pictures/PE.png>]
+<Pictures/erlangen.png, id=193, 690.1785pt x 414.95026pt>
 File: Pictures/erlangen.png Graphic file (type png)
 
 <use Pictures/erlangen.png>
@@ -637,9 +646,6 @@ Package pdftex.def Info: Pictures/erlangen.png used on input line 53.
 ))
 ("S:\School\Embedded computer architecture\ECA\Sections/Proposition.tex")
 ("S:\School\Embedded computer architecture\ECA\Sections/Related.tex"
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <S:/School/Embedded computer architecture/ECA/Pictures/PE.png>]
 ("S:\School\Embedded computer architecture\ECA\Subsections/POE.tex"
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 
@@ -661,15 +667,15 @@ Underfull \hbox (badness 2538) in paragraph at lines 4--9
  []
 
 [8 <S:/School/Embedded computer architecture/ECA/Pictures/erlangen.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
 
 [9
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  ("S:\School\Embedded computer architecture\ECA\Essay_ECA.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `Essay_ECA.out' has not changed.
 (rerunfilecheck)             Checksum: A087B84EBA83747CC48830D832066989;1269.
 
@@ -679,16 +685,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 10058 strings out of 494045
- 151418 string characters out of 3148387
+ 10068 strings out of 494045
+ 151494 string characters out of 3148387
  273280 words of memory out of 3000000
  13059 multiletter control sequences out of 15000+200000
- 10430 words of font info for 69 fonts, out of 3000000 for 9000
+ 10685 words of font info for 74 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 41i,19n,44p,1295b,474s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,18n,44p,1295b,474s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -697,7 +703,7 @@ onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb>
-Output written on Essay_ECA.pdf (9 pages, 499650 bytes).
+Output written on Essay_ECA.pdf (9 pages, 500034 bytes).
 PDF statistics:
  247 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
