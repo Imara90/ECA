@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  4 NOV 2013 21:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  4 NOV 2013 23:33
 entering extended mode
 **S:/School/Embedded*computer*architecture/ECA/Essay_ECA.tex
 ("S:/School/Embedded computer architecture/ECA/Essay_ECA.tex"
@@ -483,42 +483,42 @@ Certain file hooks might now be dysfunctional! on input line 74.
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/17.28'. Switching off
-(microtype)                protrusion for this font on input line 94.
+(microtype)                protrusion for this font on input line 96.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/bx/n/17.28'. Switching off
-(microtype)                protrusion for this font on input line 94.
+(microtype)                protrusion for this font on input line 96.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/12'. Switching off
-(microtype)                protrusion for this font on input line 94.
+(microtype)                protrusion for this font on input line 96.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/sc/12'. Switching off
-(microtype)                protrusion for this font on input line 94.
+(microtype)                protrusion for this font on input line 96.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/it/12'. Switching off
-(microtype)                protrusion for this font on input line 94.
+(microtype)                protrusion for this font on input line 96.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/10'. Switching off
-(microtype)                protrusion for this font on input line 94.
+(microtype)                protrusion for this font on input line 96.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/bx/n/10'. Switching off
-(microtype)                protrusion for this font on input line 94.
+(microtype)                protrusion for this font on input line 96.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/it/10.95'. Switching off
-(microtype)                protrusion for this font on input line 94.
+(microtype)                protrusion for this font on input line 96.
 
 ("S:\School\Embedded computer architecture\ECA\Sections/Introduction.tex"
 
@@ -566,19 +566,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
 ("S:\School\Embedded computer architecture\ECA\Subsections/Selfaware.tex")
 ("S:\School\Embedded computer architecture\ECA\Subsections/Erlangen.tex")
-("S:\School\Embedded computer architecture\ECA\Subsections/Virtex4.tex")
-("S:\School\Embedded computer architecture\ECA\Subsections/DPR.tex" [2])
+("S:\School\Embedded computer architecture\ECA\Subsections/Virtex4.tex"
+[2]) ("S:\School\Embedded computer architecture\ECA\Subsections/DPR.tex")
 ("S:\School\Embedded computer architecture\ECA\Subsections/Reconfigurable.tex")
 ("S:\School\Embedded computer architecture\ECA\Subsections/Evolvable.tex"))
 ("S:\School\Embedded computer architecture\ECA\Sections/Techniques.tex"
 [3] ("S:\School\Embedded computer architecture\ECA\Subsections/Selfawareness.te
-x") ("S:\School\Embedded computer architecture\ECA\Subsections/Decisions.tex")
+x"
+
+LaTeX Warning: Citation `sec:selfaware' on page 4 undefined on input line 5.
+
+) ("S:\School\Embedded computer architecture\ECA\Subsections/Decisions.tex")
 ("S:\School\Embedded computer architecture\ECA\Subsections/Selfadapting.tex"
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[4] <Pictures/self-aware.PNG, id=142, 813.0375pt x 499.8675pt>
+File: Pictures/self-aware.PNG Graphic file (type png)
 
- [4])
-("S:\School\Embedded computer architecture\ECA\Subsections/TechniekenAimee.tex"
+<use Pictures/self-aware.PNG>
+Package pdftex.def Info: Pictures/self-aware.PNG used on input line 8.
+(pdftex.def)             Requested size: 221.0pt x 135.87367pt.
 
+
+LaTeX Warning: Citation `self-aware' on page 5 undefined on input line 14.
+
+) ("S:\School\Embedded computer architecture\ECA\Subsections/TechniekenAimee.te
+x"
 Underfull \hbox (badness 6094) in paragraph at lines 4--4
 [][][]\OT1/cmr/bx/n/10.95 (+20) Virtex FPGA with a Two-
  []
@@ -588,14 +599,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--4
 \OT1/cmr/bx/n/10.95 (+20) Dimensional Re-con-fig-u-ra-tion
  []
 
-<Pictures/2D_architecture.png, id=155, 363.759pt x 257.16075pt>
+[5 <S:/School/Embedded computer architecture/ECA/Pictures/self-aware.PNG>]
+<Pictures/2D_architecture.png, id=160, 363.759pt x 257.16075pt>
 File: Pictures/2D_architecture.png Graphic file (type png)
 
 <use Pictures/2D_architecture.png>
 Package pdftex.def Info: Pictures/2D_architecture.png used on input line 12.
 (pdftex.def)             Requested size: 221.0pt x 156.23999pt.
- [5]
-<Pictures/candidate.png, id=168, 365.56575pt x 336.65775pt>
+
+<Pictures/candidate.png, id=167, 365.56575pt x 336.65775pt>
 File: Pictures/candidate.png Graphic file (type png)
 
 <use Pictures/candidate.png>
@@ -608,18 +620,15 @@ Package pdftex.def Info: Pictures/candidate.png used on input line 23.
 l.26 \end{figure}
                  
 ? 
-<Pictures/PE.png, id=175, 260.172pt x 275.8305pt>
+[6 <S:/School/Embedded computer architecture/ECA/Pictures/2D_architecture.png> 
+<S:/School/Embedded computer architecture/ECA/Pictures/candidate.png>]
+<Pictures/PE.png, id=179, 260.172pt x 275.8305pt>
 File: Pictures/PE.png Graphic file (type png)
  <use Pictures/PE.png>
 Package pdftex.def Info: Pictures/PE.png used on input line 36.
 (pdftex.def)             Requested size: 221.0pt x 234.31392pt.
 
-[6 <S:/School/Embedded computer architecture/ECA/Pictures/2D_architecture.png> 
-<S:/School/Embedded computer architecture/ECA/Pictures/candidate.png>]
-Underfull \vbox (badness 1675) has occurred while \output is active []
-
-
-<Pictures/erlangen.png, id=188, 690.1785pt x 414.95026pt>
+<Pictures/erlangen.png, id=187, 690.1785pt x 414.95026pt>
 File: Pictures/erlangen.png Graphic file (type png)
 
 <use Pictures/erlangen.png>
@@ -628,6 +637,9 @@ Package pdftex.def Info: Pictures/erlangen.png used on input line 53.
 ))
 ("S:\School\Embedded computer architecture\ECA\Sections/Proposition.tex")
 ("S:\School\Embedded computer architecture\ECA\Sections/Related.tex"
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <S:/School/Embedded computer architecture/ECA/Pictures/PE.png>]
 ("S:\School\Embedded computer architecture\ECA\Subsections/POE.tex"
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 
@@ -642,63 +654,52 @@ Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OMS/cmsy/m/n/10.95'. Switching off
 (microtype)                protrusion for this font on input line 5.
 
-[7 <S:/School/Embedded computer architecture/ECA/Pictures/PE.png> <S:/School/Em
-bedded computer architecture/ECA/Pictures/erlangen.png>]))
-("S:\School\Embedded computer architecture\ECA\Sections/Conclusion.tex")
+)) ("S:\School\Embedded computer architecture\ECA\Sections/Conclusion.tex")
 ("S:\School\Embedded computer architecture\ECA\Essay_ECA.bbl"
 Underfull \hbox (badness 2538) in paragraph at lines 4--9
 [][][]\OT1/cmr/m/n/10.95 (+20) M. Khan A. Khalid, M. Haye and
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+[8 <S:/School/Embedded computer architecture/ECA/Pictures/erlangen.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+
+[9
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
  ("S:\School\Embedded computer architecture\ECA\Essay_ECA.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package rerunfilecheck Info: File `Essay_ECA.out' has not changed.
+(rerunfilecheck)             Checksum: A087B84EBA83747CC48830D832066989;1269.
 
-
-Package rerunfilecheck Warning: File `Essay_ECA.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Essay_ECA.out':
-(rerunfilecheck)             Before: 69DB3FA5FEADD1CC11C4A4AECBC2CBEE;1408
-(rerunfilecheck)             After:  C688E60ED6803D1C28C2CBE76E3DD236;1274.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 10049 strings out of 494045
- 151269 string characters out of 3148387
+ 10058 strings out of 494045
+ 151418 string characters out of 3148387
  273280 words of memory out of 3000000
- 13054 multiletter control sequences out of 15000+200000
- 10322 words of font info for 68 fonts, out of 3000000 for 9000
+ 13059 multiletter control sequences out of 15000+200000
+ 10430 words of font info for 69 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 41i,19n,44p,1295b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmti12.pfb>
-Output written on Essay_ECA.pdf (8 pages, 392805 bytes).
+ 41i,19n,44p,1295b,474s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmti12.pfb>
+Output written on Essay_ECA.pdf (9 pages, 499650 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
+ 247 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
- 28845 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 28834 words of extra memory for PDF output out of 29859 (max. 10000000)
 
