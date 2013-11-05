@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{survey}
 M.~Khan A.~Khalid, M.~Haye and S.~Shamail.
@@ -26,12 +26,6 @@ H.~Hoffman F.~Sironi, A.~Cuoccio and M.D.~Santambrogio M.~Maggio.
   adaptive applications.
 \newblock In {\em NASA/ESA Conference on Adaptive Hardware and Systems
   (AHS-2011)}.
-
-\bibitem{fpga}
-H.~Hoffmann et~al. F.~Sironi, M.~Triverio.
-\newblock Self-aware adaptation in fpga-based systems.
-\newblock In {\em International Conference on Field Programmable Logic and
-  Applications (FPL)}.
 
 \bibitem{selfaware}
 H.~Hoffmann M. Maggio M.D.~Santambrogio F.~Sironi, M.~Triverio.
