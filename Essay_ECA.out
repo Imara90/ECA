@@ -1,17 +1,17 @@
-\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Fundamental knowledge}{}% 2
-\BOOKMARK [1][-]{section.3}{Discussion of the Different Papers}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Software based flexible approaches}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Hardware based fast approaches}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.3}{Co-design based systems}{section.3}% 6
-\BOOKMARK [1][-]{section.4}{Analysis of techniques}{}% 7
-\BOOKMARK [2][-]{subsection.4.1}{Monitoring techniques}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.2}{Decision making techniques}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.3}{Self-adapting techniques}{section.4}% 10
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Virtex FPGA with a Two-Dimensional Reconfiguration Core}{subsection.4.3}% 11
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Candidate Solutions and Direct Bitstream Manipulation}{subsection.4.3}% 12
-\BOOKMARK [3][-]{subsubsection.4.3.3}{Systolic array of PEs and Optimized DPR}{subsection.4.3}% 13
-\BOOKMARK [3][-]{subsubsection.4.3.4}{Erlangen Slot Machine}{subsection.4.3}% 14
-\BOOKMARK [1][-]{section.5}{Proposed adaptive system design}{}% 15
-\BOOKMARK [1][-]{section.6}{Related works}{}% 16
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 17
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{Fundamental knowledge}{}
+\BOOKMARK [1][-]{section.3}{Discussion of the Different Papers}{}
+\BOOKMARK [2][-]{subsection.3.1}{Software based flexible approaches}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Hardware based fast approaches}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Co-design based systems}{section.3}
+\BOOKMARK [1][-]{section.4}{Analysis of techniques}{}
+\BOOKMARK [2][-]{subsection.4.1}{Monitoring techniques}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Decision making techniques}{section.4}
+\BOOKMARK [2][-]{subsection.4.3}{Self-adapting techniques}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Virtex FPGA with a Two-Dimensional Reconfiguration Core}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Candidate Solutions and Direct Bitstream Manipulation}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Systolic array of PEs and Optimized DPR}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Erlangen Slot Machine}{subsection.4.3}
+\BOOKMARK [1][-]{section.5}{Proposed adaptive system design}{}
+\BOOKMARK [1][-]{section.6}{Related works}{}
+\BOOKMARK [1][-]{section.7}{Conclusion}{}
