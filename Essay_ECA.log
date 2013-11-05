@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  5 NOV 2013 21:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  5 NOV 2013 21:27
 entering extended mode
  %&-line parsing enabled.
 **Essay_ECA.tex
@@ -469,36 +469,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 
-LaTeX Warning: Citation `autocom' on page 2 undefined on input line 8.
+LaTeX Warning: Citation `autocom' on page 2 undefined on input line 6.
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 12--15
+Underfull \hbox (badness 1242) in paragraph at lines 10--13
 [][][]\OT1/cmr/m/it/10 (+20) Evolvable sys-tems \OT1/cmr/m/n/10 (+20) ex-ploit 
 self-adaptive, self-
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 17--18
+Underfull \hbox (badness 1622) in paragraph at lines 15--16
 [][][]\OT1/cmr/m/it/10 (+20) Autonomic sys-tems \OT1/cmr/m/n/10 (+20) are in-pi
 red by the hu-
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 17--18
+Underfull \hbox (badness 1087) in paragraph at lines 15--16
 \OT1/cmr/m/n/10 (+20) properties: \OT1/cmr/m/it/10 (+20) self-managing, self-pr
 otecting, self-
  []
 
 ) (./Sections/Discussion.tex
-
-LaTeX Warning: Citation `drp' on page 2 undefined on input line 8.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
 [][][]\OT1/cmr/bx/n/12 Software based flex-i-ble ap-
  []
 
-(./Subsections/Selfaware.tex) (./Subsections/Erlangen.tex)
+(./Subsections/Software.tex) (./Subsections/Erlangen.tex)
 (./Subsections/Virtex4.tex [2]) (./Subsections/DPR.tex)
 (./Subsections/Reconfigurable.tex) (./Subsections/Evolvable.tex))
 (./Sections/Techniques.tex [3] (./Subsections/Selfawareness.tex
@@ -506,7 +502,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 LaTeX Warning: Citation `sec:selfaware' on page 4 undefined on input line 5.
 
 ) (./Subsections/Decisions.tex) (./Subsections/Selfadapting.tex
-<Pictures/self-aware.PNG, id=143, 813.0375pt x 499.8675pt>
+<Pictures/self-aware.PNG, id=144, 813.0375pt x 499.8675pt>
 File: Pictures/self-aware.PNG Graphic file (type png)
 
 <use Pictures/self-aware.PNG>
@@ -518,12 +514,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--4
 [][][]\OT1/cmr/bx/n/10 Virtex FPGA with a Two-
  []
 
-<Pictures/2D_architecture.png, id=158, 363.759pt x 257.16075pt>
+<Pictures/2D_architecture.png, id=159, 363.759pt x 257.16075pt>
 File: Pictures/2D_architecture.png Graphic file (type png)
 
 <use Pictures/2D_architecture.png> [5 <./Pictures/self-aware.PNG> <./Pictures/2
 D_architecture.png (PNG copy)>]
-<Pictures/candidate.png, id=172, 365.56575pt x 336.65775pt>
+<Pictures/candidate.png, id=173, 365.56575pt x 336.65775pt>
 File: Pictures/candidate.png Graphic file (type png)
 
 <use Pictures/candidate.png>
@@ -533,11 +529,11 @@ File: Pictures/candidate.png Graphic file (type png)
 l.26 \end{figure}
                  
 ? 
-<Pictures/PE.png, id=179, 260.172pt x 275.8305pt>
+<Pictures/PE.png, id=180, 260.172pt x 275.8305pt>
 File: Pictures/PE.png Graphic file (type png)
  <use Pictures/PE.png>
 [6 <./Pictures/candidate.png (PNG copy)> <./Pictures/PE.png (PNG copy)>]
-<Pictures/erlangen.png, id=193, 690.1785pt x 414.95026pt>
+<Pictures/erlangen.png, id=194, 690.1785pt x 414.95026pt>
 File: Pictures/erlangen.png Graphic file (type png)
 
 <use Pictures/erlangen.png>)) (./Sections/Proposition.tex)
@@ -547,12 +543,15 @@ gen.png (PNG copy)>])) (./Sections/Conclusion.tex) (./Essay_ECA.bbl) [8]
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 9632 strings out of 495061
- 144227 string characters out of 1182621
+ 9631 strings out of 495061
+ 144219 string characters out of 1182621
  270449 words of memory out of 3000000
- 12519 multiletter control sequences out of 15000+50000
+ 12518 multiletter control sequences out of 15000+50000
  9607 words of font info for 56 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  41i,18n,44p,1250b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -564,9 +563,9 @@ ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
 cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share
 /texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Essay_ECA.pdf (8 pages, 546899 bytes).
+Output written on Essay_ECA.pdf (8 pages, 547084 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
+ 254 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
  16034 words of extra memory for PDF output out of 17280 (max. 10000000)
 
