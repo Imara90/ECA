@@ -1,21 +1,19 @@
 %prior knowledge
 
-\section{Prior knowledge}
+\section{Fundamental knowledge}
+\label{sec:fundamental}
 
-\emph{
-[still need to give an introduction to all the matters spoken. what is evolvable hardware?]
-[firstly introduce the self* properties as they are mentioned right into the discussion]
-}
+In this section an introduction to the fundamental terms used in this paper are given. These terms concern prior knowledge required when working with autonomic systems and their implementations in hardware. 
 
+Computing system containing \emph{self-properties} are capable of adapting their behavior and resources thousands of times based on changing environmental conditions and demands \cite{selfaware}. This allows them to automatically accomplish their goals in the best way possible. This behavior is achieved through \emph{self-monitoring} which recognizes changes in its internal state that may require a modification, called \emph{self-adjusting}. \emph{Self-healing} concerns effective recovery under fault condition, \emph{self-optimization} invokes optimizing operation in proactive and reactive manners and \emph{self-configuring} concerns automatically installing, configuring and integrating new components seamlessly into the system to meet stated goals \cite{autocom}. 
+
+%\subsection{Evolvable systems}
 % what is evolvable
-Evolvable systems exploiting self-adaptive techniques are self-configuring and self-optimizing systems capable of changing their operations to meet the given performance goals by modifying either the underlying heterogeneous architecture, the operating system and the self-adaptive applications. \cite{evolvable}
-Meeting efficiency and accuracy constraints is getting more and more difficult , mainly because of the exponential increase of interactions among systems and the environments in which the systems are required to work. 
-
-% techniques used
-The monitoring process is central to self-adaptive systems and is done by the application HeartBeats. 
-Using machine learning, one can enhance synchronization techniques. K32 is a modern object-oriented operating system that responds to changing and challenging environments adapting its operations. It supports on line reconfiguration of functionalities by interposition, hot-swap and dynamic update. \cite{evolvable}
-
+\emph{Evolvable systems} exploit self-adaptive, self-configuring and self-optimizing techniques and are capable of changing their operations to meet the given performance goals by modifying either the underlying heterogeneous architecture, the operating system and the self-adaptive applications. \cite{evolvable}
+%Meeting efficiency and accuracy constraints is getting more and more difficult , mainly because of the exponential increase of interactions among systems and the environments in which the systems are required to work. 
 %The operating systems chooses at run-time among a set of possible implementations according %to the criteria. This decision is based on the Observe-decide-act. The need for this dynamic %choice between available implementations is give by the fact that the system is live and %lives in an unpredictable environment. \cite{selfaware}
 
 %e explanation of autonomic 
-The autonomic concept is inpired by the human body's nervous system. This system is known to be adapt to environment aware and capable of adapting to this, but also be able to repair minor physical damage. An autonomic system is stated to contain all these properties, also known as self-properties: \emph{self-managing, self-protecting, self-healing} and \emph{self-optimizing} \cite{autonomic}. 
+\emph{Autonomic systems} are inpired by the human body's nervous system and contains all self-properties: \emph{self-managing, self-protecting, self-healing} and \emph{self-optimizing} \cite{autonomic}. 
+
+Autonomic systems have the need for heterogeneous underlying architectures, which can be provided by using Field Programmable Gate Arrays (FPGAs).These can be configured to fullfil a desired functionality by using one or more bitstreams. These bitstreams are binary files in which FPGA specific configuration information is stored and these are to be copied along with the proper commands on to the configuration SRAM cells, or the configuration memory \cite{reconfigurable}. 

@@ -1,10 +1,8 @@
-% Self-aware adaptation in FPGA-based systems
- 
-The results of \cite{selfaware} presents a system built on top of a set of enabling technology that proves the effectiveness of using self-aware adaptive computing systems.
-Self-aware adaptive computing focuses on creating a balance of resources to improve performance, utilization, reliability and programmability. 
-A programmer will ideally only have to provide the system its goal, rather than a description of tasks, provided with some constraints.
+% Software based approaches
+The \emph{Heartbeats application} is a monitoring application which makes it possible to assert performance goals as heart-rate windows delimited by a minimum and maximum performance, or \emph{heart-rate} \cite{evolvable}. The Heartbeats API is made of small straightforward functions and allows declaring performance goals. Software components first have to register, specifying parameters such as minimum and maxmim heart-reate, size of the windows of observation and history buffers \cite{selfaware}. The application then updates the progress of the execution calling the function that signifies a heartbeat \cite{evolvable}.
 
-In a system like this, the hardware, the application and the operating system have to be seen as unique entities to autonomously adapt itself. 
-The underlying architecture has cognitive hardware mechanisms in its core to observe and affect the execution. 
-The self-aware adaptive computing system also implements learning and decision making engines  to determine appropriate actions. 
-A key challenge is to identify what parts of a computer need to be adapted.
+%[SMARTLOCKS PAPER] presents a combination of the Heartbeats application in cooperating with other frameworks. Smartlocks is a spinlock library that will adapt its internal implementations based on defined goals during run-time using heurstics as discussed in subsection \ref{sec:decisions} and machine learning. 
+
+\cite{reconfigurable} dscusses using adaptive programming in situations where input changes lead to relatively small output changes. They present a hardwar/software codesign paradigm that develops a new performance model and associated evaluation metrics to differentiate between various levels of performance across different portions of software modules. Incoorporating this into a codesign environment increases the flexibility of the system. 
+%distributed self trained algorithms, machine learning, heartbeats application
+%adaptive programming

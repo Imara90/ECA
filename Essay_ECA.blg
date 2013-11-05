@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: C:\Users\Aimee\ECA\Essay_ECA.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Essay_ECA.aux
 The style file: plain.bst
 Database file #1: References.bib
 You're missing a field name---line 5 of file References.bib
@@ -76,13 +76,15 @@ You're missing a field name---line 211 of file References.bib
  :     %editor   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 238 of file References.bib
- : 
- : 
-(Error may have been on previous line)
+Illegal end of database file---line 253 of file References.bib
+ :  }
+ :   
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "why"
+Warning--I didn't find a database entry for "autocom"
 Warning--I didn't find a database entry for "drp"
+Warning--I didn't find a database entry for "sec:selfaware"
+Warning--I didn't find a database entry for "self-aware"
 Too many commas in name 1 of "F. Sironi, M. Triverio, H. Hoffmann, M. Maggio, M.D. Santambrogio" for entry selfaware
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "F. Sironi, M. Triverio, H. Hoffmann, M. Maggio, M.D. Santambrogio" for entry selfaware
