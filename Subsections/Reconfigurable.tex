@@ -1,13 +1,6 @@
 % From reconfigurable architectures to self-adaptive autonomic systems 
+\cite{reconfigurable} proposes the harvesting of the full potential of dynamic reconfiguration by carefull evaluating the overhead of reconfiguration in hardware-software interfacing. To overcome the limits introduced by increasing complexity and the workloads to main complex infrastructues they adopt a codesigned self-adaptive and autonomic computing system. They use the JTAG download cable method to configure the FPGA. A full \emph{bitstream} configures the whole configuration memory statically at the beginning of the execution of a system, while partial bitstreams are used for reconfiguration to confirgure merely portions of the device.
 
-In \cite{reconfigurable} the importance of hardware/software co-design during design space exploration is urged on. 
-Right now this co-design emphasizes on identifying intensive kernel tasks and implementing these tasks on the reconfigurable hardware. 
-Existing adaptive systems often fail because of they are largely ad hoc and fail to incorporate true goals.
-The current performance model of the hardware however, depends on the degree of parallelism while the performance model for software execution is static and does not become affected by external factors. 
-Since the introduction of reconfigurable hardware platforms such as FPGAs, the hardware domain shifted into the software domain: the possibility of implementing a reconfigurable architecture increased the flexibility of the hardware.
+\emph{Partial dynamic reconfiguration (PRD)} is a key feature that makes FPGAs unique. PDR addresses the lack of resources to implement an application and its adaptability needs. Reconfigurable hardware taking advantage of partial dynamic reconfiguration is the perfect trade-off between the speed of HW and the flexibility of SW. 
 
-Partial dynamic reconfiguration is a key feature that makes FPGAs unique. 
-This addresses the lack of resources to implement an application and its adaptability needs. Reconfigurable hardware taking advantage of partial dynamic reconfiguration is the perfect trade-off between the speed of HW and the flexibility of SW. Other aspects that motivate the use of online self-adaptable systems are the QoS and the reliability and continuity of the service.
-
-However, an important problem often neglected is the time overhead the reconfiguration process introduces and the two-dimensional partitioning strategy reconfigurable devices need: spatial and temporal. 
-\cite{reconfigurable} presents the urge to carefully evaluate the overhead created as a negative impact of reconfiguration latency which is not always discussed in present papers. 
+However, an important problem often neglected is the time overhead the reconfiguration process introduces and the two-dimensional partitioning strategy reconfigurable devices need: spatial and temporal. \cite{reconfigurable} presents the urge to carefully evaluate the overhead created as a negative impact of reconfiguration latency which is not always discussed in present papers. 

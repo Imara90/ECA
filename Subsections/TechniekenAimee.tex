@@ -15,7 +15,7 @@ A drawback of using Virtex FPGAs are the feed-through signales, mentioned in \ci
 \end{figure}
 
 \subsubsection{Candidate Solutions and Direct Bitstream Manipulation}
-
+\label{sec:candidate}
 With a 2D architecture for the RC, \cite{virtex4} uses safe manipulation of the bitstream to overcome the unknown and undocumented bitstream mentioned in \ref{sec:virtex4}. Candidate solutions are used to fill the RC with cells, which have an internal flip-flops allowing the evolution of synchronous circuits. This is a common structure for evolvable hardware (EHW) systems making use of direct bitstream manipulation \cite{virtex4}. For the cell structure of the candidate solutions the use of LUTs and a MUX is proposed, in order to provide direct bitstream manipulation. Combined with the 2D-reconfiguration mechanism, the new architecture causes a speed up of 16x factor. For this system, only Virtex-4 or Virtex-5 FPGAs can be used since Virtex-II does not support 2D reconfiguation (\cite{virtex4}.
 
 % -- Plaatje candidate solutions architecture ---------------------------
