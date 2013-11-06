@@ -1,7 +1,9 @@
 % Evolvable systems on reconfigurable architecture via self-aware adaptive applications. ++
-In \cite{evolvable} an evolvable system running self-adaptive application on top of a heterogeneous systems is proposed. 
-The operating system running on top is responsible for providing the self-* proporties and runs this on a general purpose processor and a reconfigurable device 
 
-In \cite{evolvable}, the underlying hardware architecture is made up of  static area and a dynamic area. The reconfigurable device can be configured to implement different functionality through dynamic reconfiguration support provided by the operating system. This is provided through standard libraries and the OS implements parts of the loop. The OS is therefor capable of choosing at run-time the best implementation for the required functionality among the available.
-The switchable units in the hot-swap method in \cite{evolvable} are identified as the libraries that export an implementation of a certain functionality. 
-The self-adaptive library or Dynamic-link library(DLL) and the software implementation library target the reconfigurable FPGA and multicore respectively. 
+\cite{evolvable} proposes an evolvable system exploiting self-adaptive techniques by running a customized version of GNU/Linux and a set of adaptive applications on top of a heterogeneous system featuring a multi-core Intel Core i7 processor and a reconfigurable devide, a Xilinx Virtex 5 FPGA. The online reconfiguration mechanism they propose is inspired by the modern object oriented operating system called K42, developed by IBM. The underlying hardware architecture is made up of static area, containing the general purpose processor and a dynamic area which contains the FPGA. 
+
+The customized operating system provides common functionalities through standard libraries, but is also able to choose at runtime the best implementations for the required functionalities thanks to a set of self-adaptive libraries. 
+
+transfers a switchable unie in a quiescent state, transferres the state and changes the references. 
+
+The switchable units in the hot-swap method in \cite{evolvable} are identified as the libraries that export an implementation of a certain functionality. The self-adaptive library or Dynamic-link library(DLL) and the software implementation library target the reconfigurable FPGA and multicore respectively. 
