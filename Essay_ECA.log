@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  6 NOV 2013 16:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  6 NOV 2013 18:10
 entering extended mode
 **S:/School/Embedded*computer*architecture/ECA/Essay_ECA.tex
 ("S:/School/Embedded computer architecture/ECA/Essay_ECA.tex"
@@ -584,22 +584,15 @@ Package pdftex.def Info: Pictures/3tier.png used on input line 9.
 (pdftex.def)             Requested size: 221.0pt x 263.76108pt.
 ))
 ("S:\School\Embedded computer architecture\ECA\Sections/Techniques.tex"
-("S:\School\Embedded computer architecture\ECA\Subsections/Selfawareness.tex"
-
-Package microtype Warning: I cannot find a protrusion list for font
-(microtype)                `OT1/cmr/bx/n/10'. Switching off
-(microtype)                protrusion for this font on input line 3.
-
-
-LaTeX Warning: Citation `sec:selfaware' on page 4 undefined on input line 3.
-
-) ("S:\School\Embedded computer architecture\ECA\Subsections/Decisions.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <S:/School/Embedded computer architecture/ECA/Pictures/reconfig.png> <S:/Sc
-hool/Embedded computer architecture/ECA/Pictures/3tier.png>])
+
+("S:\School\Embedded computer architecture\ECA\Subsections/Selfawareness.tex"
+[4 <S:/School/Embedded computer architecture/ECA/Pictures/reconfig.png> <S:/Sch
+ool/Embedded computer architecture/ECA/Pictures/3tier.png>])
+("S:\School\Embedded computer architecture\ECA\Subsections/Decisions.tex")
 ("S:\School\Embedded computer architecture\ECA\Subsections/Selfadapting.tex"
-<Pictures/self-aware.PNG, id=166, 813.0375pt x 499.8675pt>
+<Pictures/self-aware.PNG, id=167, 813.0375pt x 499.8675pt>
 File: Pictures/self-aware.PNG Graphic file (type png)
 
 <use Pictures/self-aware.PNG>
@@ -607,19 +600,21 @@ Package pdftex.def Info: Pictures/self-aware.PNG used on input line 8.
 (pdftex.def)             Requested size: 221.0pt x 135.87367pt.
 
 
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OT1/cmr/bx/n/10'. Switching off
+(microtype)                protrusion for this font on input line 14.
+
+
 LaTeX Warning: Citation `self-aware' on page 5 undefined on input line 14.
 
-) ("S:\School\Embedded computer architecture\ECA\Subsections/TechniekenAimee.te
-x"
+[5 <S:/School/Embedded computer architecture/ECA/Pictures/self-aware.PNG>])
+("S:\School\Embedded computer architecture\ECA\Subsections/TechniekenAimee.tex"
+
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
 [][][]\OT1/cmr/bx/n/10 (+20) Virtex FPGA with a Two-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <S:/School/Embedded computer architecture/ECA/Pictures/self-aware.PNG>]
-<Pictures/2D_architecture.png, id=181, 363.759pt x 257.16075pt>
+<Pictures/2D_architecture.png, id=182, 363.759pt x 257.16075pt>
 File: Pictures/2D_architecture.png Graphic file (type png)
 
 <use Pictures/2D_architecture.png>
@@ -629,7 +624,7 @@ Package pdftex.def Info: Pictures/2D_architecture.png used on input line 12.
 
 LaTeX Warning: Reference `sec:virtex4' on page 6 undefined on input line 19.
 
-<Pictures/candidate.png, id=187, 365.56575pt x 336.65775pt>
+<Pictures/candidate.png, id=188, 365.56575pt x 336.65775pt>
 File: Pictures/candidate.png Graphic file (type png)
 
 <use Pictures/candidate.png>
@@ -642,18 +637,16 @@ Package pdftex.def Info: Pictures/candidate.png used on input line 23.
 l.26 \end{figure}
                  
 ? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <S:/School/Embedded computer architecture/ECA/Pictures/2D_architecture.png>
- <S:/School/Embedded computer architecture/ECA/Pictures/candidate.png>]
-<Pictures/PE.png, id=200, 260.172pt x 275.8305pt>
+[6 <S:/School/Embedded computer architecture/ECA/Pictures/2D_architecture.png>]
+<Pictures/PE.png, id=202, 260.172pt x 275.8305pt>
 File: Pictures/PE.png Graphic file (type png)
  <use Pictures/PE.png>
 Package pdftex.def Info: Pictures/PE.png used on input line 36.
 (pdftex.def)             Requested size: 221.0pt x 234.31392pt.
 
-<Pictures/erlangen.png, id=208, 690.1785pt x 414.95026pt>
+[7 <S:/School/Embedded computer architecture/ECA/Pictures/candidate.png> <S:/Sc
+hool/Embedded computer architecture/ECA/Pictures/PE.png>]
+<Pictures/erlangen.png, id=217, 690.1785pt x 414.95026pt>
 File: Pictures/erlangen.png Graphic file (type png)
 
 <use Pictures/erlangen.png>
@@ -663,17 +656,11 @@ Package pdftex.def Info: Pictures/erlangen.png used on input line 53.
 ("S:\School\Embedded computer architecture\ECA\Sections/Proposition.tex")
 ("S:\School\Embedded computer architecture\ECA\Sections/Related.tex"
 ("S:\School\Embedded computer architecture\ECA\Subsections/QuantativeAimee.tex"
-
-Underfull \vbox (badness 4699) has occurred while \output is active []
-
- [7 <S:/School/Embedded computer architecture/ECA/Pictures/PE.png>]))
+[8 <S:/School/Embedded computer architecture/ECA/Pictures/erlangen.png>]))
 ("S:\School\Embedded computer architecture\ECA\Sections/Conclusion.tex")
-("S:\School\Embedded computer architecture\ECA\Essay_ECA.bbl" [8 <S:/School/Emb
-edded computer architecture/ECA/Pictures/erlangen.png>])
+("S:\School\Embedded computer architecture\ECA\Essay_ECA.bbl")
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
- [9
-
-]
+ [9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
 
 ("S:\School\Embedded computer architecture\ECA\Essay_ECA.aux")
@@ -691,13 +678,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 10056 strings out of 494045
- 151402 string characters out of 3148387
+ 10055 strings out of 494045
+ 151387 string characters out of 3148387
  275259 words of memory out of 3000000
- 13052 multiletter control sequences out of 15000+200000
+ 13051 multiletter control sequences out of 15000+200000
  10363 words of font info for 70 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 41i,19n,45p,1295b,474s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,19n,45p,1295b,410s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
@@ -707,9 +694,9 @@ onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12
 .pfb>
-Output written on Essay_ECA.pdf (9 pages, 682384 bytes).
+Output written on Essay_ECA.pdf (9 pages, 684667 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
+ 277 PDF objects out of 1000 (max. 8388607)
  44 named destinations out of 1000 (max. 500000)
  26796 words of extra memory for PDF output out of 29859 (max. 10000000)
 
