@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.3)  5 NOV 2013 00:46
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.3)  6 NOV 2013 17:59
 entering extended mode
 **C:/Users/Aimee/ECA/Labreport/Report_ECA.tex
 (C:/Users/Aimee/ECA/Labreport/Report_ECA.tex
@@ -1148,26 +1148,75 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
 LaTeX Warning: Reference `app:satd' on page 2 undefined on input line 5.
 
-[2] [3 <C:/Users/Aimee/ECA/Labreport/Pictures/Platform_paint.png (PNG copy)>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
+[2] [3 <C:/Users/Aimee/ECA/Labreport/Pictures/Platform_paint.png (PNG copy)>]
 
-[4 <C:/Users/Aimee/ECA/Labreport/Pictures/hop.png (PNG copy)>]
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rho' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 38.
+
+
+LaTeX Warning: Reference `eq:imem' on page 4 undefined on input line 40.
+
+
+LaTeX Warning: Reference `eq:dmem' on page 4 undefined on input line 40.
+
+<Pictures/imem.png, id=66, 1156.32pt x 581.17125pt>
+File: Pictures/imem.png Graphic file (type png)
+ <use Pictures/imem.png>
+Overfull \hbox (9.63512pt too wide) in paragraph at lines 46--47
+ [][][][] 
+ []
+
+
+! LaTeX Error: File `Pictures/dmem' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...ncludegraphics[width=150px]{Pictures/dmem}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
+ [4 <C:/Users/Aimee/ECA/Labreport/Pictures/hop.png (PNG copy)>] [5 <C:/Users/Ai
+mee/ECA/Labreport/Pictures/imem.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
 
 (C:\Users\Aimee\ECA\Labreport\Report_ECA.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
-Package rerunfilecheck Info: File `Report_ECA.out' has not changed.
-(rerunfilecheck)             Checksum: 9F8BBC55DC5B80C74EF46C243AC39BF8;525.
 
+
+Package rerunfilecheck Warning: File `Report_ECA.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Report_ECA.out':
+(rerunfilecheck)             Before: 9F8BBC55DC5B80C74EF46C243AC39BF8;525
+(rerunfilecheck)             After:  11095D6BDFACE1B6EFE9A146A00CED97;624.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 26372 strings out of 494019
- 547876 string characters out of 3143883
- 647590 words of memory out of 3000000
- 29135 multiletter control sequences out of 15000+200000
+ 26406 strings out of 494019
+ 548287 string characters out of 3143883
+ 647638 words of memory out of 3000000
+ 29153 multiletter control sequences out of 15000+200000
  12752 words of font info for 48 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  63i,28n,57p,893b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1182,9 +1231,9 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Report_ECA.pdf (4 pages, 190346 bytes).
+Output written on Report_ECA.pdf (5 pages, 336413 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 84 words of extra memory for PDF output out of 10000 (max. 10000000)
 

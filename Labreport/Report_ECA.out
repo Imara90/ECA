@@ -5,3 +5,4 @@
 \BOOKMARK [1][-]{section.2}{Implementation}{}% 5
 \BOOKMARK [2][-]{subsection.2.1}{Adjusting the makefile}{section.2}% 6
 \BOOKMARK [2][-]{subsection.2.2}{Type Definition}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Communication between the MicroBlaze and the -VEX}{section.2}% 8

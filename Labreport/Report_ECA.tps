@@ -5,13 +5,13 @@ Version=2
 [SessionInfo]
 ActiveTab=0
 FrameCount=3
-ActiveFrame=0
+ActiveFrame=2
 
 [Frame0]
 Columns=1
 Rows=1
-Flags=2
-ShowCmd=3
+Flags=0
+ShowCmd=1
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-9
@@ -24,17 +24,17 @@ Class=CLatexEdit
 Document=Sections\Introduction.tex
 
 [Frame0_Row0]
-cyCur=530
+cyCur=305
 cyMin=10
 
 [Frame0_Col0]
-cxCur=1887
+cxCur=1689
 cxMin=10
 
 [Frame0_View0,0]
 Cursor.row=60
 Cursor.column=11
-TopSubLine=43
+TopSubLine=49
 
 [Frame1]
 Columns=1
@@ -61,15 +61,15 @@ cxCur=1685
 cxMin=10
 
 [Frame1_View0,0]
-Cursor.row=64
-Cursor.column=31
-TopSubLine=49
+Cursor.row=0
+Cursor.column=0
+TopSubLine=0
 
 [Frame2]
 Columns=1
 Rows=1
-Flags=0
-ShowCmd=1
+Flags=2
+ShowCmd=3
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-9
@@ -82,15 +82,15 @@ Class=CLatexEdit
 Document=Sections\Implementation.tex
 
 [Frame2_Row0]
-cyCur=305
+cyCur=530
 cyMin=10
 
 [Frame2_Col0]
-cxCur=1689
+cxCur=1887
 cxMin=10
 
 [Frame2_View0,0]
-Cursor.row=2
-Cursor.column=23
-TopSubLine=0
+Cursor.row=57
+Cursor.column=0
+TopSubLine=47
 
