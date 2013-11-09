@@ -2,18 +2,18 @@
 
 \section{Introduction}
 
-For the lab a computational intensive kernel has to be extracted from a x264 software application, free software library for encoding video stream into H.236/MPEG-4 AVC format. The application is executed on a FPGA running a MicroBlaze host processor. By running the particular kernel on $\rho$-VEX co-processor, the execution time can be decreased by making use of hardware acceleration. 
+For the lab a computational intensive kernel has to be extracted from a \mcode{x264} software application, free software library for encoding video stream into H.236/MPEG-4 AVC format. The application is executed on a FPGA running a MicroBlaze host processor. By running the particular kernel on $\rho$-VEX co-processor, the execution time can be decreased by making use of hardware acceleration. 
 
 \subsection{Getting Used to the Environment}
-The first lab is meant to get used to the project environment. A few input files are given to show the compile and run commands of the x264 application, by inserting a .y4m stream and creating a short .mkv movie. By adding the gprof flag to the compile command, a list is created of all functions ordered by their share of the total execution time (in percentage). 
+The first lab is meant to get used to the project environment. A few input files are given to show the compile and run commands of the x264 application, by inserting a \mcode{.y4m} stream and creating a short \mcode{.mkv} movie. By adding the \mcode{gprof} flag to the compile command, a list is created of all functions ordered by their share of the total execution time (in percentage). 
 
 \subsection{Detecting the Computationally Most Intensive Kernel}
 
-Profiling the x264 execution for the .y4m files that are provided by the lab, the following ranking is obtained:
+Profiling the x264 execution for the \mcode{.y4m} files that are provided by the lab leads to the ranking show in table \ref{tab:chart}.
 
 \begin{table}[htb]%
 \centering
-	\begin{tabular}{|l|c|l|l|}
+	\begin{tabular}{lcll}
 		\centering
 		\bf{Input fie} & \bf{Execution time (in sec)} & \bf{Share (in $\%$)} & \bf{Kernel name} \\ \cline{1-4}
 		\multirow{3}{*}{eledream\_32x18\_1.y4m}	&				& 100.00	& x264\_analyse\_init\_costs\\ 
@@ -37,22 +37,22 @@ Profiling the x264 execution for the .y4m files that are provided by the lab, th
 \label{tab:chart}
 \end{table}
 
-Given the chart in \ref{tab:chart}, we decide to extract the x264\_pixel\_satd\_8x4 kernel, since its share in execution time increases as the files become larger. This kernel evaluates the Sum of Transformed Differences between a 8x4 pixel block from the input stream and reference blocks using 4x4 transform (Hadamard???).
+Given these statistics, we decide to extract the \mcode{x264\_pixel\_satd\_8x4 kernel}, since its share in execution time increases as the files become larger. This kernel evaluates the Sum of Transformed Differences between a 8x4 pixel block from the input stream and reference blocks using 4x4 transform (Hadamard???). DE EXECUTIETIJD IS VARIABEL, ELKE KEER DAT IK UITVOER MET GPROF OF TIME GEEFT IE ANDERE EXECUTIETIJDEN. DIT GETAL IS DUS NIET NAUWKEURIG.
 
 \subsection{Executing an Application on the Development Board and $\rho$-VEX}
 
-When executing ./configure, a file is created for configuration of the application. However, this config.mak file is made for applications running on the guest (Ubuntu). In order to configure for MicroBlaze, the config.mak file has to altered. All references to m32 have to be removed and the --DWORDS\_BIGENDIAN flag has to be added to the CFLAGS variable. This has to be done everytime when configurating the application for MicroBlaze.
+When executing \mcode{./configure}, a file is created for configuration of the application. However, the resulting \mcode{config.mak} file is made for applications running on the guest (Ubuntu). In order to configure for MicroBlaze, the \mcode{config.mak} file has to altered. All references to \mcode{m32} have to be removed and the \mcode{--DWORDS\_BIGENDIAN} flag has to be added to the \mcode{CFLAGS} variable. This has to be done everytime when configurating the application for MicroBlaze.
 
-After doing this, the application now can be 'made' for MicroBlaze by first moving to the Scratchbox 2 environment for MicroBlaze and then execute the make command. Fig. \ref{fig:lelijk} shows a block diagram of both the platforms.
+After doing this, the application now can be 'made' for MicroBlaze by first moving to the Scratchbox 2 environment for MicroBlaze and then execute the \mcode{make} command. Fig. \ref{fig:lelijk} shows a block diagram of both the platforms.
 
 % -- Plaatje Structuur Practicum ------------------------------
 \begin{figure}[htb]%
 \includegraphics[width=\columnwidth]{Pictures/Platform_paint}%
 \caption{Block diagram of the Virtual Machine and the ERA platform}%
-\label{lelijk}%
+\label{fig:lelijk}%
 \end{figure}
 
-In order to run the application on the MicroBlaze host processor, the x264 executable must be compressed along with an input stream in a tar.gz file. This file can be put, via the FPGA host machine, on one of the three FPGAs using the scp, ftp and put command. For the programmer to connect to the development board, one must use the ssh and telnet command. See also fig \ref{fig:hoppen}.
+In order to run the application on the MicroBlaze host processor, the \mcode{x264} executable must be compressed along with an input stream in a \mcode{tar.gz} file. This file can be put, via the FPGA host machine, on one of the three FPGAs using the \mcode{scp}, \mcode{ftp} and \mcode{put} command. For the programmer to connect to the development board, one must use the \mcode{ssh} and \mcode{telnet} command. See also fig \ref{fig:hoppen}.
 
 % -- Plaatje Ubuntu-commando's ------------------------------
 \begin{figure}[htb]%
@@ -61,7 +61,7 @@ In order to run the application on the MicroBlaze host processor, the x264 execu
 \label{fig:hoppen}%
 \end{figure}
 
-For the first lab, the satd\_8x4 kernel has to be:
+For the first lab, the \mcode{satd\_8x4} kernel has to be:
 \begin{itemize}
 	\item extracted into a separate file
 	\item supplemented to a proper .c file which can be compiled and run using the $\rho$-VEX

@@ -4,8 +4,8 @@ Version=2
 
 [SessionInfo]
 ActiveTab=0
-FrameCount=3
-ActiveFrame=2
+FrameCount=5
+ActiveFrame=3
 
 [Frame0]
 Columns=1
@@ -32,9 +32,9 @@ cxCur=1689
 cxMin=10
 
 [Frame0_View0,0]
-Cursor.row=60
-Cursor.column=11
-TopSubLine=49
+Cursor.row=39
+Cursor.column=85
+TopSubLine=41
 
 [Frame1]
 Columns=1
@@ -61,15 +61,15 @@ cxCur=1685
 cxMin=10
 
 [Frame1_View0,0]
-Cursor.row=0
-Cursor.column=0
-TopSubLine=0
+Cursor.row=65
+Cursor.column=24
+TopSubLine=52
 
 [Frame2]
 Columns=1
 Rows=1
-Flags=2
-ShowCmd=3
+Flags=0
+ShowCmd=1
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-9
@@ -79,18 +79,76 @@ NormalPos.top=60
 NormalPos.right=1792
 NormalPos.bottom=435
 Class=CLatexEdit
-Document=Sections\Implementation.tex
+Document=Sections\Approach.tex
 
 [Frame2_Row0]
-cyCur=530
+cyCur=305
 cyMin=10
 
 [Frame2_Col0]
-cxCur=1887
+cxCur=1689
 cxMin=10
 
 [Frame2_View0,0]
-Cursor.row=57
+Cursor.row=0
+Cursor.column=53
+TopSubLine=0
+
+[Frame3]
+Columns=1
+Rows=1
+Flags=2
+ShowCmd=3
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-9
+MaxPos.y=-36
+NormalPos.left=120
+NormalPos.top=120
+NormalPos.right=904
+NormalPos.bottom=507
+Class=CLatexEdit
+Document=Sections\Implementation.tex
+
+[Frame3_Row0]
+cyCur=512
+cyMin=10
+
+[Frame3_Col0]
+cxCur=909
+cxMin=10
+
+[Frame3_View0,0]
+Cursor.row=6
+Cursor.column=20
+TopSubLine=0
+
+[Frame4]
+Columns=1
+Rows=1
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-9
+MaxPos.y=-36
+NormalPos.left=150
+NormalPos.top=150
+NormalPos.right=934
+NormalPos.bottom=537
+Class=CLatexEdit
+Document=Appendices\SATD.tex
+
+[Frame4_Row0]
+cyCur=317
+cyMin=10
+
+[Frame4_Col0]
+cxCur=741
+cxMin=10
+
+[Frame4_View0,0]
+Cursor.row=0
 Cursor.column=0
-TopSubLine=47
+TopSubLine=0
 
