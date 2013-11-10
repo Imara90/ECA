@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  9 NOV 2013 12:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  10 NOV 2013 13:47
 entering extended mode
 **S:/School/Embedded*computer*architecture/ECA/Essay_ECA.tex
 ("S:/School/Embedded computer architecture/ECA/Essay_ECA.tex"
@@ -576,12 +576,12 @@ Package pdftex.def Info: Pictures/reconfig.png used on input line 8.
 (pdftex.def)             Requested size: 221.0pt x 138.80031pt.
 )
 ("S:\School\Embedded computer architecture\ECA\Subsections/Evolvable.tex"
-[3] <Pictures/3tier.png, id=147, 509.65407pt x 608.2725pt>
+[3] <Pictures/3tier.png, id=147, 416.5161pt x 461.8053pt>
 File: Pictures/3tier.png Graphic file (type png)
 
 <use Pictures/3tier.png>
 Package pdftex.def Info: Pictures/3tier.png used on input line 9.
-(pdftex.def)             Requested size: 221.0pt x 263.76108pt.
+(pdftex.def)             Requested size: 221.0pt x 245.03749pt.
 ))
 ("S:\School\Embedded computer architecture\ECA\Sections/Techniques.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -592,12 +592,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ool/Embedded computer architecture/ECA/Pictures/3tier.png>])
 ("S:\School\Embedded computer architecture\ECA\Subsections/Decisions.tex")
 ("S:\School\Embedded computer architecture\ECA\Subsections/Selfadapting.tex"
-<Pictures/self-aware.PNG, id=167, 813.0375pt x 499.8675pt>
+<Pictures/self-aware.PNG, id=167, 374.3586pt x 232.2276pt>
 File: Pictures/self-aware.PNG Graphic file (type png)
 
 <use Pictures/self-aware.PNG>
 Package pdftex.def Info: Pictures/self-aware.PNG used on input line 8.
-(pdftex.def)             Requested size: 221.0pt x 135.87367pt.
+(pdftex.def)             Requested size: 221.0pt x 137.09813pt.
  [5 <S:/School/Embedded computer architecture/ECA/Pictures/self-aware.PNG>])
 ("S:\School\Embedded computer architecture\ECA\Subsections/Hardwaretechniques.t
 ex"
@@ -611,40 +611,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 [][][]\OT1/cmr/bx/n/10 (+20) Virtex FPGA with a Two-
  []
 
-<Pictures/2D_architecture.png, id=182, 363.759pt x 257.16075pt>
+<Pictures/2D_architecture.png, id=182, 406.6392pt x 273.4215pt>
 File: Pictures/2D_architecture.png Graphic file (type png)
 
 <use Pictures/2D_architecture.png>
 Package pdftex.def Info: Pictures/2D_architecture.png used on input line 9.
-(pdftex.def)             Requested size: 221.0pt x 156.23999pt.
+(pdftex.def)             Requested size: 221.0pt x 148.6008pt.
 
-<Pictures/candidate.png, id=189, 365.56575pt x 336.65775pt>
+<Pictures/candidate.png, id=189, 368.3361pt x 404.4711pt>
 File: Pictures/candidate.png Graphic file (type png)
 
 <use Pictures/candidate.png>
 Package pdftex.def Info: Pictures/candidate.png used on input line 20.
-(pdftex.def)             Requested size: 221.0pt x 203.52187pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(pdftex.def)             Requested size: 221.0pt x 242.68452pt.
  [6 <S:/School/Embedded computer architecture/ECA/Pictures/2D_architecture.png>
 ]
-<Pictures/PE.png, id=203, 260.172pt x 275.8305pt>
+<Pictures/PE.png, id=204, 369.7815pt x 393.3897pt>
 File: Pictures/PE.png Graphic file (type png)
  <use Pictures/PE.png>
 Package pdftex.def Info: Pictures/PE.png used on input line 33.
-(pdftex.def)             Requested size: 221.0pt x 234.31392pt.
+(pdftex.def)             Requested size: 221.0pt x 235.11723pt.
 
-Underfull \vbox (badness 2393) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <S:/School/Embedded computer architecture/ECA/Pictures/candidate.png> <S:/S
 chool/Embedded computer architecture/ECA/Pictures/PE.png>]
-<Pictures/erlangen.png, id=218, 690.1785pt x 414.95026pt>
+<Pictures/erlangen.png, id=221, 463.2507pt x 321.8424pt>
 File: Pictures/erlangen.png Graphic file (type png)
 
 <use Pictures/erlangen.png>
-Package pdftex.def Info: Pictures/erlangen.png used on input line 50.
-(pdftex.def)             Requested size: 221.0pt x 132.8691pt.
+Package pdftex.def Info: Pictures/erlangen.png used on input line 48.
+(pdftex.def)             Requested size: 221.0pt x 153.5397pt.
 ))
 ("S:\School\Embedded computer architecture\ECA\Sections/Proposition.tex")
 ("S:\School\Embedded computer architecture\ECA\Sections/Related.tex"
@@ -680,9 +677,9 @@ onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Essay_ECA.pdf (9 pages, 696328 bytes).
+Output written on Essay_ECA.pdf (9 pages, 795027 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
+ 285 PDF objects out of 1000 (max. 8388607)
  44 named destinations out of 1000 (max. 500000)
  28844 words of extra memory for PDF output out of 29859 (max. 10000000)
 
