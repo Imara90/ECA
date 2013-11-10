@@ -1,0 +1,9 @@
+% -- Extracting satd_4x4 ---------------------------------------
+
+\section{Extracting a Second Kernel}
+
+For lab 3, a second kernel has to be extracted in order to achieve an even higher speed up. For this assignment, we wanted to choose our kernel more wisely. Given the constant competition for the use of the FPGAs, \mcode{bytecode} has to be written to the instruction memory everytime the kernel is being called. In combination with the data to be processed by the kernel, this leads to huge data traffic which is actually slowing down the application. This is why we wanted, at first, to pick a kernel that is not being called too often but requires a lot of heavy computation. A candidate for this would be the \mcode{halfpel} kernel, which has quite its share in execution time but not that many functions calls (\emph{halfpel zit helaas niet in de top 10 kernels, dus kan harde getallen noemen}. Unfortunately, there is no time for writing an entire new file for the extraction of the \mcode{halfpel} kernel. Instead, we will pick a kernel similar to \mcode{pixel_satd_8x4} which also have a large share in the execution time: \mcode{pixel_satd_4x4}.
+
+\subsection{Extract \mcode{pixel_satd_4x4}}
+
+*** uitleg aanvulling rovex code ***

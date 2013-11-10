@@ -2,44 +2,42 @@
 
 \section{Introduction}
 
-For the lab a computational intensive kernel has to be extracted from a \mcode{x264} software application, free software library for encoding video stream into H.236/MPEG-4 AVC format. The application is executed on a FPGA running a MicroBlaze host processor. By running the particular kernel on $\rho$-VEX co-processor, the execution time can be decreased by making use of hardware acceleration. 
-
-\subsection{Getting Used to the Environment}
-The first lab is meant to get used to the project environment. A few input files are given to show the compile and run commands of the x264 application, by inserting a \mcode{.y4m} stream and creating a short \mcode{.mkv} movie. By adding the \mcode{gprof} flag to the compile command, a list is created of all functions ordered by their share of the total execution time (in percentage). 
+For the lab a computational intensive kernel has to be extracted from a \mcode{x264} software application, a free software library for encoding video stream into H.236/MPEG-4 AVC format. It is able to use Periodic Intra Refresh instead of keyframes (which is used by h.264), refreshing the image of the video by moving a column of intra blocks from one side of the screen to the other. This hides the refreshing effect from the user while the frame loads. The \mcode{x264} application is executed on a FPGA running a MicroBlaze host processor. By running the particular kernel on the $\rho$-VEX co-processor, the execution time can be decreased by making use of parallel processing. 
+\emph{Er is heel weinig informatie te vinden over de precieze werking van x264, aangezien er een patent opzit.}
 
 \subsection{Detecting the Computationally Most Intensive Kernel}
+The first lab is meant to learn about the execution specifics of the application. A few input files are given to show the compile and run commands of the x264 application, by inserting a \mcode{.y4m} stream and creating a short \mcode{.mkv} movie. By adding the \mcode{gprof} flag to the compile command, a list is created of all functions ordered by their share of the total execution time (in percentage). Also the number of function calls is shown, as well as the total execution time for each input file. The input files exist of five \mcode{.y4m} files, varying in resolution (either 64x32 or 640x320 pixels) and amount of frames (either 1, 3, 8, 32 or 128).
 
 Profiling the x264 execution for the \mcode{.y4m} files that are provided by the lab leads to the ranking show in table \ref{tab:chart}.
 
-\small
+% -- GPROF uitslagen ---------------------------------------
 \begin{table}[htb]%
 \centering
-	\begin{tabular}{lcll}
+\small
+	\begin{tabular}{lclll}
 		\centering
 		\bf{Input file} & \bf{Time (sec)} 	& \bf{Share ($\%$)} & \bf{Calls}	& \bf{Kernel name} \\ \cline{1-4}
 		\multirow{3}{*}{eledream\_32x18\_1.y4m}	&				& 100.00	& 71		&	x264\_analyse\_init\_costs\\ 
 																						&	0.02	& 0.00 		& 1646	&	x264\_free\\ 
-																						&				& 0.00		& 784		&	x264\_cabac\_encode\_desicion\_c\\ \cline{1-4}
+																						&				& 0.00		& 784		&	x264\_cabac\_encode\_desicion\_c\\ \cline{1-5}
 		\multirow{3}{*}{eledream\_64x32\_3.y4m} & 			& 66.67		& 71		& x264\_analyse\_init\_costs\\
 																						&	0.03	& 33.33 	& 1971	&	x264\_pixel\_satd\_4x4\\ 
-																						&				& 0.00		& 4830	&	x264\_pixel\_satd\_8x4\\ \cline{1-4}
+																						&				& 0.00		& 4830	&	x264\_pixel\_satd\_8x4\\ \cline{1-5}
 		\multirow{3}{*}{eledream\_640x320\_8.y4m}	& 			& 14.29	& 1599044		&	x264\_pixel\_satd\_8x4\\ 
 																							&	1.61	& 11.80 	& 570708	&	x264\_get\_ref\\ 
-																							&				& 4.97		& 38770		&	x264\_pixel\_satd\_x4\_16x16\\ \cline{1-4}
+																							&				& 4.97		& 38770		&	x264\_pixel\_satd\_x4\_16x16\\ \cline{1-5}
 		\multirow{3}{*}{eledream\_640x320\_32.y4m}& 			& 20.61		& 7228633		&	get\_ref\\ 
 																							& 8.54	& 13.23 	& 15386501	&	x264\_pixel\_satd\_8x4\\ 
-																							&				& 4.57		& 1009690		&	x264\_pixel\_satd\_x4\_8x8\\ \cline{1-4}
+																							&				& 4.57		& 1009690		&	x264\_pixel\_satd\_x4\_8x8\\ \cline{1-5}
 		\multirow{3}{*}{eledream\_640x320\_128.y4m}&			& 17.48		& 21956292	&	get\_ref\\
 																							&	 29.86& 14.17 	& 49862831	&	x264\_pixel\_satd\_8x4\\
-																							&				& 6.56		& 1023315		&	x264\_pixel\_satd\_x4\_16x16\\ \cline{1-4}
+																							&				& 6.56		& 1023315		&	x264\_pixel\_satd\_x4\_16x16\\ \cline{1-5}
 	\end{tabular}	
-\normalsize
 \caption{Chart with computationally most intensive kernels for each input stream.}
 \label{tab:chart}
 \end{table}
 
-
-\subsection{The \mcode{pixel_satd_8x4} kernel
+\subsection{The \mcode{pixel_satd_8x4} kernel}
 Given these statistics, we decide to extract the \mcode{x264\_pixel\_satd\_8x4 kernel}, since its share in execution time increases as the files become larger. This kernel evaluates the Sum of Transformed Differences (SATD) between a 8x4 pixel block from the input stream and reference blocks. The SATD is a metric used for video compression where the differences between the pixels are taken and put into a frequency transform, usually a Hadamard transform. The two pixel blocks are being compared and the Hadamard keeps track of which bytes have a match and which does not by means of a Boolean 4x4 matrix as can be seen in figure HADAMARD.
 
 *** plaatje Hadamard ***
@@ -50,7 +48,7 @@ When executing \mcode{./configure}, a file is created for configuration of the a
 
 After doing this, the application now can be 'made' for MicroBlaze by first moving to the Scratchbox 2 environment for MicroBlaze and then execute the \mcode{make} command. Fig. \ref{fig:lelijk} shows a block diagram of both the platforms.
 
-% -- Plaatje Structuur Practicum ------------------------------
+% -- Plaatje Practicum Evnvironments ------------------------------
 \begin{figure}[htb]%
 \includegraphics[width=\columnwidth]{Pictures/Platform_paint}%
 \caption{Block diagram of the Virtual Machine and the ERA platform}%
@@ -78,10 +76,5 @@ Looking back, the debugging part has been chasing us all the way through the lab
 
 \subsection{Memory layout of the MicroBlaze}
 
-Ik heb even niet goed voor me hoe deze eruit ziet. Heb een plaatje gemaakt van het geheugen van de RoVEX, maar dit zal wel niet opgaan voor de MicroBlaze.
+When writing pixels to the $\rho$-VEX for SATD calculation, these pixels need to be picked from the MicroBlaze memory. However, these pixels are not written as one block of contiguous bytes. Rows of four bytes (MicroBlaze has 32-bit registers) are interrupted by a fixed amount of memory called a stride.
 
-\begin{figure}%
-\includegraphics[width=\columnwidth]{Pictures/dmem_rvex}%
-\caption{Memory layout of the $\rho$-VEX}%
-\label{}%
-\end{figure}
