@@ -1,11 +1,14 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Getting Used to the Environment}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{Detecting the Computationally Most Intensive Kernel}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{Executing an Application on the Development Board and -VEX}{section.1}% 4
-\BOOKMARK [1][-]{section.2}{Approach}{}% 5
-\BOOKMARK [2][-]{subsection.2.1}{Adjusting the [basicstyle=]|makefile|}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.2}{Type Definition}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.3}{Communication between the MicroBlaze and the -VEX}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.4}{Result Hyphothesis}{section.2}% 9
+\BOOKMARK [1][-]{section.2}{Approach}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Adjusting the [basicstyle=]|makefile|}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Type Definition}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Constraints of the -VEX}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Communication between the MicroBlaze and the -VEX}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.5}{Result Hyphothesis}{section.2}% 9
 \BOOKMARK [1][-]{section.3}{Implementation}{}% 10
-\BOOKMARK [1][-]{appendix.A}{Extracted kernels [basicstyle=]|pixelsatd8x4| and [basicstyle=]|pixelsatd4x4|}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{The Fix}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Order of Variable Initialization}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Endianness}{section.3}% 13
+\BOOKMARK [1][-]{appendix.A}{Extracted kernels [basicstyle=]|pixelsatd8x4| and [basicstyle=]|pixelsatd4x4|}{}% 14

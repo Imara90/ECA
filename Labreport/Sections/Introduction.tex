@@ -11,33 +11,38 @@ The first lab is meant to get used to the project environment. A few input files
 
 Profiling the x264 execution for the \mcode{.y4m} files that are provided by the lab leads to the ranking show in table \ref{tab:chart}.
 
+\small
 \begin{table}[htb]%
 \centering
 	\begin{tabular}{lcll}
 		\centering
-		\bf{Input fie} & \bf{Execution time (in sec)} & \bf{Share (in $\%$)} & \bf{Kernel name} \\ \cline{1-4}
-		\multirow{3}{*}{eledream\_32x18\_1.y4m}	&				& 100.00	& x264\_analyse\_init\_costs\\ 
-																						&	0.02	& 0.00 		& x264\_free\\ 
-																						&				& 0.00		& x264\_cabac\_encode\_desicion\_c\\ \cline{1-4}
-		\multirow{3}{*}{eledream\_64x32\_3.y4m} & 			& 66.67		& x264\_analyse\_init\_costs\\
-																						&	0.03	& 33.33 	& x264\_pixel\_satd\_4x4\\ 
-																						&				& 0.00		& x264\_pixel\_satd\_8x4\\ \cline{1-4}
-		\multirow{3}{*}{eledream\_640x320\_8.y4m}	& 			& 14.29	& x264\_pixel\_satd\_8x4\\ 
-																							&	1.61	& 11.80 	& x264\_get\_ref\\ 
-																							&				& 4.97		& x264\_pixel\_satd\_x4\_16x16\\ \cline{1-4}
-		\multirow{3}{*}{eledream\_640x320\_32.y4m}& 			& 20.61	& get\_ref\\ 
-																							& 8.54	& 13.23 	& x264\_pixel\_satd\_8x4\\ 
-																							&				& 4.57		& x264\_pixel\_satd\_x4\_8x8\\ \cline{1-4}
-		\multirow{3}{*}{eledream\_640x320\_128.y4m}&			& 17.48	& get\_ref\\
-																							&	 29.86& 14.17 	& x264\_pixel\_satd\_8x4\\
-																							&				& 6.56		& x264\_pixel\_satd\_x4\_16x16\\ \cline{1-4}
+		\bf{Input file} & \bf{Time (sec)} 	& \bf{Share ($\%$)} & \bf{Calls}	& \bf{Kernel name} \\ \cline{1-4}
+		\multirow{3}{*}{eledream\_32x18\_1.y4m}	&				& 100.00	& 71		&	x264\_analyse\_init\_costs\\ 
+																						&	0.02	& 0.00 		& 1646	&	x264\_free\\ 
+																						&				& 0.00		& 784		&	x264\_cabac\_encode\_desicion\_c\\ \cline{1-4}
+		\multirow{3}{*}{eledream\_64x32\_3.y4m} & 			& 66.67		& 71		& x264\_analyse\_init\_costs\\
+																						&	0.03	& 33.33 	& 1971	&	x264\_pixel\_satd\_4x4\\ 
+																						&				& 0.00		& 4830	&	x264\_pixel\_satd\_8x4\\ \cline{1-4}
+		\multirow{3}{*}{eledream\_640x320\_8.y4m}	& 			& 14.29	& 1599044		&	x264\_pixel\_satd\_8x4\\ 
+																							&	1.61	& 11.80 	& 570708	&	x264\_get\_ref\\ 
+																							&				& 4.97		& 38770		&	x264\_pixel\_satd\_x4\_16x16\\ \cline{1-4}
+		\multirow{3}{*}{eledream\_640x320\_32.y4m}& 			& 20.61		& 7228633		&	get\_ref\\ 
+																							& 8.54	& 13.23 	& 15386501	&	x264\_pixel\_satd\_8x4\\ 
+																							&				& 4.57		& 1009690		&	x264\_pixel\_satd\_x4\_8x8\\ \cline{1-4}
+		\multirow{3}{*}{eledream\_640x320\_128.y4m}&			& 17.48		& 21956292	&	get\_ref\\
+																							&	 29.86& 14.17 	& 49862831	&	x264\_pixel\_satd\_8x4\\
+																							&				& 6.56		& 1023315		&	x264\_pixel\_satd\_x4\_16x16\\ \cline{1-4}
 	\end{tabular}	
-
+\normalsize
 \caption{Chart with computationally most intensive kernels for each input stream.}
 \label{tab:chart}
 \end{table}
 
-Given these statistics, we decide to extract the \mcode{x264\_pixel\_satd\_8x4 kernel}, since its share in execution time increases as the files become larger. This kernel evaluates the Sum of Transformed Differences between a 8x4 pixel block from the input stream and reference blocks using 4x4 transform (Hadamard???). DE EXECUTIETIJD IS VARIABEL, ELKE KEER DAT IK UITVOER MET GPROF OF TIME GEEFT IE ANDERE EXECUTIETIJDEN. DIT GETAL IS DUS NIET NAUWKEURIG.
+
+\subsection{The \mcode{pixel_satd_8x4} kernel
+Given these statistics, we decide to extract the \mcode{x264\_pixel\_satd\_8x4 kernel}, since its share in execution time increases as the files become larger. This kernel evaluates the Sum of Transformed Differences (SATD) between a 8x4 pixel block from the input stream and reference blocks. The SATD is a metric used for video compression where the differences between the pixels are taken and put into a frequency transform, usually a Hadamard transform. The two pixel blocks are being compared and the Hadamard keeps track of which bytes have a match and which does not by means of a Boolean 4x4 matrix as can be seen in figure HADAMARD.
+
+*** plaatje Hadamard ***
 
 \subsection{Executing an Application on the Development Board and $\rho$-VEX}
 
@@ -71,3 +76,12 @@ For the first lab, the \mcode{satd\_8x4} kernel has to be:
 
 Looking back, the debugging part has been chasing us all the way through the lab. Not only did we suffer from bugs in our source code, the $\rho$-VEX itself did also have shortcomings that had to be circumvented by downloading several fixes, competing for FPGA availability and break downs of the entire host machine due to unsufficient capacity for the amount of students.
 
+\subsection{Memory layout of the MicroBlaze}
+
+Ik heb even niet goed voor me hoe deze eruit ziet. Heb een plaatje gemaakt van het geheugen van de RoVEX, maar dit zal wel niet opgaan voor de MicroBlaze.
+
+\begin{figure}%
+\includegraphics[width=\columnwidth]{Pictures/dmem_rvex}%
+\caption{Memory layout of the $\rho$-VEX}%
+\label{}%
+\end{figure}
