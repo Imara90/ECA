@@ -11,13 +11,11 @@
 \BOOKMARK [2][-]{subsection.4.3}{Communication between the MicroBlaze and the -VEX}{section.4}% 11
 \BOOKMARK [2][-]{subsection.4.4}{Result Hyphothesis}{section.4}% 12
 \BOOKMARK [1][-]{section.5}{Implementation}{}% 13
-\BOOKMARK [2][-]{subsection.5.1}{Using Test Pixels for Debugging}{section.5}% 14
-\BOOKMARK [2][-]{subsection.5.2}{The Fix}{section.5}% 15
-\BOOKMARK [2][-]{subsection.5.3}{Order of Variable Initialization}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.4}{Endianness}{section.5}% 17
-\BOOKMARK [2][-]{subsection.5.5}{Setting pointer to address 0 using [basicstyle=]|lseek|}{section.5}% 18
-\BOOKMARK [2][-]{subsection.5.6}{Using Test Pixels for Debugging}{section.5}% 19
-\BOOKMARK [1][-]{section.6}{Extracting a Second Kernel}{}% 20
-\BOOKMARK [2][-]{subsection.6.1}{Extract [basicstyle=]|pixelsatd4x4|}{section.6}% 21
-\BOOKMARK [1][-]{section.7}{Evaluation}{}% 22
-\BOOKMARK [1][-]{appendix.A}{Extracted kernels [basicstyle=]|pixelsatd8x4| and [basicstyle=]|pixelsatd4x4|}{}% 23
+\BOOKMARK [2][-]{subsection.5.1}{Mock up pixels}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.2}{Issues with the fix}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.3}{Endianness}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.4}{Reliability of the code}{section.5}% 17
+\BOOKMARK [1][-]{section.6}{Extracting a Second Kernel}{}% 18
+\BOOKMARK [2][-]{subsection.6.1}{Extract [basicstyle=]|pixelsatd4x4|}{section.6}% 19
+\BOOKMARK [1][-]{section.7}{Evaluation}{}% 20
+\BOOKMARK [1][-]{appendix.A}{Extracted kernels [basicstyle=]|pixelsatd8x4| and [basicstyle=]|pixelsatd4x4|}{}% 21
