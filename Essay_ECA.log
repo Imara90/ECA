@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  11 NOV 2013 12:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  11 NOV 2013 12:44
 entering extended mode
  %&-line parsing enabled.
 **Essay_ECA.tex
@@ -434,7 +434,7 @@ k' was loaded.
 Certain file hooks might now be dysfunctional! on input line 74.
 
 (./Sections/Introduction.tex) (./Sections/Prior.tex
-Underfull \vbox (badness 3386) has occurred while \output is active []
+Underfull \vbox (badness 4608) has occurred while \output is active []
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -463,24 +463,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--10
  []
 
 (./Subsections/Software.tex) (./Subsections/Erlangen.tex)
-(./Subsections/Virtex4.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2])
-(./Subsections/DPR.tex
+(./Subsections/Virtex4.tex [2]) (./Subsections/DPR.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
- (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
 )
 (./Subsections/Reconfigurable.tex
-<Pictures/reconfig.png, id=144, 884.55469pt x 555.57562pt>
+<Pictures/reconfig.png, id=143, 884.55469pt x 555.57562pt>
 File: Pictures/reconfig.png Graphic file (type png)
 
 <use Pictures/reconfig.png>) (./Subsections/Evolvable.tex [3]
-<Pictures/3tier.png, id=158, 416.5161pt x 461.8053pt>
+<Pictures/3tier.png, id=157, 416.5161pt x 461.8053pt>
 File: Pictures/3tier.png Graphic file (type png)
  <use Pictures/3tier.png>)) (./Sections/Techniques.tex (./Subsections/Selfaware
 ness.tex)
@@ -491,12 +488,12 @@ Underfull \hbox (badness 2932) in paragraph at lines 9--10
  []
 
 ) (./Subsections/Selfadapting.tex
-<Pictures/self-aware.PNG, id=178, 374.3586pt x 232.2276pt>
+<Pictures/self-aware.PNG, id=177, 374.3586pt x 232.2276pt>
 File: Pictures/self-aware.PNG Graphic file (type png)
 
 <use Pictures/self-aware.PNG>) (./Subsections/Hardwaretechniques.tex [5 <./Pict
 ures/self-aware.PNG>]
-<Pictures/2D_architecture.png, id=193, 406.6392pt x 273.4215pt>
+<Pictures/2D_architecture.png, id=192, 406.6392pt x 273.4215pt>
 File: Pictures/2D_architecture.png Graphic file (type png)
 
 <use Pictures/2D_architecture.png>
@@ -504,14 +501,14 @@ Underfull \hbox (badness 5985) in paragraph at lines 11--11
 []\OT1/cmr/m/n/10 Figure 4: |High-level struc-ture of a Two-
  []
 
-<Pictures/candidate.png, id=201, 368.3361pt x 404.4711pt>
+<Pictures/candidate.png, id=200, 368.3361pt x 404.4711pt>
 File: Pictures/candidate.png Graphic file (type png)
 
 <use Pictures/candidate.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./Pictures/2D_architecture.png> <./Pictures/candidate.png>]
-<Pictures/PE.png, id=215, 369.7815pt x 393.3897pt>
+<Pictures/PE.png, id=214, 369.7815pt x 393.3897pt>
 File: Pictures/PE.png Graphic file (type png)
  <use Pictures/PE.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -522,32 +519,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
  []
 
 [7 <./Pictures/PE.png>]
-<Pictures/erlangen.png, id=232, 463.2507pt x 321.8424pt>
+<Pictures/erlangen.png, id=231, 463.2507pt x 321.8424pt>
 File: Pictures/erlangen.png Graphic file (type png)
 
 <use Pictures/erlangen.png>)) (./Sections/Proposition.tex
 (./Subsections/HW_Proposal.tex) (./Subsections/SW_Proposal.tex))
-(./Sections/Related.tex (./Subsections/QuantativeAimee.tex [8 <./Pictures/erlan
-gen.png>]) (./Subsections/POE.tex)) (./Sections/Conclusion.tex)
-(./Essay_ECA.bbl
-Underfull \vbox (badness 1014) has occurred while \output is active []
+(./Sections/Related.tex (./Subsections/QuantativeAimee.tex
+Underfull \vbox (badness 3954) has occurred while \output is active []
 
-
+ [8 <./Pictures/erlangen.png>]) (./Subsections/POE.tex)) (./Sections/Conclusion
+.tex)
+[9] (./Essay_ECA.bbl
 Underfull \hbox (badness 5504) in paragraph at lines 24--29
 [][][]\OT1/cmr/m/n/10 H. Hoff-man F. Sironi, A. Cuoc-cio and
  []
 
-) [9] (./Essay_ECA.aux)
+) [10
+
+] (./Essay_ECA.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8357 strings out of 495061
- 121863 string characters out of 1182621
+ 8356 strings out of 495061
+ 121851 string characters out of 1182621
  223553 words of memory out of 3000000
- 11288 multiletter control sequences out of 15000+50000
- 8164 words of font info for 29 fonts, out of 3000000 for 9000
+ 11287 multiletter control sequences out of 15000+50000
+ 7819 words of font info for 28 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  41i,19n,45p,2057b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
@@ -559,11 +558,10 @@ ic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share
 /texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texl
 ive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmti9.pfb>
-Output written on Essay_ECA.pdf (9 pages, 821426 bytes).
+ype1/public/amsfonts/cm/cmti12.pfb>
+Output written on Essay_ECA.pdf (10 pages, 811422 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
