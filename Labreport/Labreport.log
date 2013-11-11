@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.10)  11 NOV 2013 02:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.10)  11 NOV 2013 02:56
 entering extended mode
 **S:/School/Embedded*computer*architecture/ECA/Labreport/Labreport.tex
 ("S:/School/Embedded computer architecture/ECA/Labreport/Labreport.tex"
@@ -1283,60 +1283,59 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 39.
 
-[2]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 47.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rho' on input line 47.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 47.
-
-<Pictures/Platform_paint.png, id=131, 633.567pt x 333.6465pt>
-File: Pictures/Platform_paint.png Graphic file (type png)
-
-<use Pictures/Platform_paint.png>
-Package pdftex.def Info: Pictures/Platform_paint.png used on input line 56.
-(pdftex.def)             Requested size: 301.1261pt x 158.57536pt.
-
-<Pictures/hop.png, id=133, 563.10374pt x 201.1515pt>
-File: Pictures/hop.png Graphic file (type png)
- <use Pictures/hop.png>
-Package pdftex.def Info: Pictures/hop.png used on input line 66.
-(pdftex.def)             Requested size: 301.1261pt x 107.5674pt.
-
-[3 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/Platform_pa
-int.png> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/hop.p
-ng>] <Pictures/stride.png, id=143, 281.25075pt x 334.851pt>
+[2] <Pictures/stride.png, id=128, 281.25075pt x 334.851pt>
 File: Pictures/stride.png Graphic file (type png)
 
 <use Pictures/stride.png>
-Package pdftex.def Info: Pictures/stride.png used on input line 92.
+Package pdftex.def Info: Pictures/stride.png used on input line 53.
 (pdftex.def)             Requested size: 150.56305pt x 179.25336pt.
 
-Overfull \hbox (9.63512pt too wide) in paragraph at lines 92--93
+Overfull \hbox (9.63512pt too wide) in paragraph at lines 53--54
  [][][][] 
  []
 
-<Pictures/pixels_dmem.png, id=144, 339.669pt x 369.17924pt>
+<Pictures/pixels_dmem.png, id=129, 339.669pt x 369.17924pt>
 File: Pictures/pixels_dmem.png Graphic file (type png)
 
 <use Pictures/pixels_dmem.png>
-Package pdftex.def Info: Pictures/pixels_dmem.png used on input line 99.
+Package pdftex.def Info: Pictures/pixels_dmem.png used on input line 60.
 (pdftex.def)             Requested size: 150.56305pt x 163.64487pt.
 
-Overfull \hbox (9.63512pt too wide) in paragraph at lines 99--100
+Overfull \hbox (9.63512pt too wide) in paragraph at lines 60--61
  [][][][] 
  []
 
-) ("S:\School\Embedded computer architecture\ECA\Labreport\Sections/Approach.te
-x" [4 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/stride.p
-ng> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/pixels_dme
-m.png>] <Pictures/dmem_rvex.png, id=154, 339.669pt x 369.17924pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 68.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rho' on input line 68.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 68.
+
+<Pictures/platform.png, id=132, 356.7729pt x 161.1621pt>
+File: Pictures/platform.png Graphic file (type png)
+
+<use Pictures/platform.png>
+Package pdftex.def Info: Pictures/platform.png used on input line 77.
+(pdftex.def)             Requested size: 301.1261pt x 136.03181pt.
+ [3 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/stride.png
+> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/pixels_dmem.
+png> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/platform.
+png>]
+<Pictures/hoprecht.png, id=143, 320.1561pt x 45.0483pt>
+File: Pictures/hoprecht.png Graphic file (type png)
+
+<use Pictures/hoprecht.png>
+Package pdftex.def Info: Pictures/hoprecht.png used on input line 88.
+(pdftex.def)             Requested size: 301.1261pt x 42.37425pt.
+)
+("S:\School\Embedded computer architecture\ECA\Labreport\Sections/Approach.tex"
+<Pictures/dmem_rvex.png, id=146, 339.669pt x 369.17924pt>
 File: Pictures/dmem_rvex.png Graphic file (type png)
 
 <use Pictures/dmem_rvex.png>
@@ -1347,6 +1346,8 @@ Package pdftex.def Info: Pictures/dmem_rvex.png used on input line 16.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\lstinline' on input line 21.
 
+[4 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/hoprecht.pn
+g>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 26.
@@ -1359,8 +1360,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 26.
 
-[5 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/dmem_rvex.p
-ng>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 47.
@@ -1373,9 +1372,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 47.
 
-<Pictures/imem.png, id=165, 402.90524pt x 157.18726pt>
+[5 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/dmem_rvex.p
+ng>] <Pictures/imem.png, id=165, 402.90524pt x 157.18726pt>
 File: Pictures/imem.png Graphic file (type png)
- <use Pictures/imem.png>
+
+<use Pictures/imem.png>
 Package pdftex.def Info: Pictures/imem.png used on input line 55.
 (pdftex.def)             Requested size: 150.56305pt x 58.7412pt.
 
@@ -1406,11 +1407,12 @@ Overfull \hbox (9.63512pt too wide) in paragraph at lines 69--70
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 78.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [6 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/imem.png>
- <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/dmem.png> <S:
-/School/Embedded computer architecture/ECA/Labreport/Pictures/smem.png>])
+))
 ("S:\School\Embedded computer architecture\ECA\Labreport\Sections/Implementatio
-n.tex" <Pictures/testpixels.png, id=177, 397.485pt x 162.6075pt>
+n.tex" [6 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/imem
+.png> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/dmem.png
+> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/smem.png>]
+<Pictures/testpixels.png, id=175, 397.485pt x 162.6075pt>
 File: Pictures/testpixels.png Graphic file (type png)
 
 <use Pictures/testpixels.png>
@@ -1421,7 +1423,7 @@ Overfull \hbox (66.2486pt too wide) in paragraph at lines 24--25
  [][][][] 
  []
 
-<Pictures/hextest.png, id=178, 498.663pt x 92.14426pt>
+<Pictures/hextest.png, id=176, 498.663pt x 92.14426pt>
 File: Pictures/hextest.png Graphic file (type png)
 
 <use Pictures/hextest.png>
@@ -1432,19 +1434,21 @@ Overfull \hbox (66.2486pt too wide) in paragraph at lines 31--32
  [][][][] 
  []
 
-[7] <Pictures/little.png, id=189, 202.356pt x 30.1125pt>
+[7 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/testpixels.
+png> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/hextest.p
+ng>] <Pictures/little.png, id=187, 202.356pt x 30.1125pt>
 File: Pictures/little.png Graphic file (type png)
 
 <use Pictures/little.png>
 Package pdftex.def Info: Pictures/little.png used on input line 53.
 (pdftex.def)             Requested size: 150.56305pt x 22.40648pt.
- <Pictures/big.png, id=190, 198.14024pt x 26.499pt>
+ <Pictures/big.png, id=188, 198.14024pt x 26.499pt>
 File: Pictures/big.png Graphic file (type png)
 
 <use Pictures/big.png>
 Package pdftex.def Info: Pictures/big.png used on input line 60.
 (pdftex.def)             Requested size: 150.56305pt x 20.1374pt.
- <Pictures/byteswap.png, id=191, 265.59225pt x 89.133pt>
+ <Pictures/byteswap.png, id=189, 265.59225pt x 89.133pt>
 File: Pictures/byteswap.png Graphic file (type png)
 
 <use Pictures/byteswap.png>
@@ -1455,13 +1459,12 @@ Package pdftex.def Info: Pictures/byteswap.png used on input line 67.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\lstinline' on input line 75.
 
-[8 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/testpixels.
-png> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/hextest.p
-ng> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/little.png
-> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/big.png> <S:
-/School/Embedded computer architecture/ECA/Labreport/Pictures/byteswap.png>])
+)
 ("S:\School\Embedded computer architecture\ECA\Labreport\Sections/SecondKernel.
-tex"
+tex" [8 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/little
+.png> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/big.png>
+ <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/byteswap.png>
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\lstinline' on input line 7.
@@ -1507,7 +1510,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 4.
-("S:\School\Embedded computer architecture\ECA\Labreport\kernel.c" [9]
+("S:\School\Embedded computer architecture\ECA\Labreport\kernel.c"
 LaTeX Font Info:    Try loading font information for OMS+pcr on input line 18.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
@@ -1515,6 +1518,7 @@ File: omspcr.fd
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+ [9]
 LaTeX Font Info:    Try loading font information for OML+pcr on input line 58.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
@@ -1542,16 +1546,15 @@ Overfull \hbox (24.65001pt too wide) in paragraph at lines 102--103
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[11]))
+))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
- [12]
+ [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
-
-("S:\School\Embedded computer architecture\ECA\Labreport\Labreport.aux")
+ ("S:\School\Embedded computer architecture\ECA\Labreport\Labreport.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: ECD6E7A00BD47756A84ED91633FDEFAC;1842.
+(rerunfilecheck)             Checksum: F4D1AD0D5C6B6FBDC6C25C78E012FEF0;1760.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1559,10 +1562,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 30375 strings out of 493921
- 626491 string characters out of 3147281
- 778343 words of memory out of 3000000
- 32929 multiletter control sequences out of 15000+200000
+ 30372 strings out of 493921
+ 626449 string characters out of 3147281
+ 771343 words of memory out of 3000000
+ 32928 multiletter control sequences out of 15000+200000
  17739 words of font info for 67 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  63i,39n,57p,2049b,2114s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1583,9 +1586,9 @@ onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucr
 b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Labreport.pdf (12 pages, 397202 bytes).
+Output written on Labreport.pdf (11 pages, 432182 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 193 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 191 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

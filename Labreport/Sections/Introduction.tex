@@ -42,47 +42,8 @@ Given these statistics, we decide to extract the \mcode{x264\_pixel\_satd\_8x4 k
 
 \subsection{Memory layout of the MicroBlaze}
 \label{sec:layout}
-When writing pixels to the $\rho$-VEX for SATD calculation, these pixels need to be picked from the MicroBlaze memory. However, these pixels are not written as one block of contiguous bytes. Rows of four bytes (MicroBlaze has 32-bit registers) are interrupted by a fixed amount of memory called a stride.
-
-\subsection{Executing an Application on the Development Board and $\rho$-VEX}
-\label{sec:executing}
-When executing \mcode{./configure}, a file is created for configuration of the application. However, the resulting \mcode{config.mak} file is made for applications running on the guest (Ubuntu). In order to configure for MicroBlaze, the \mcode{config.mak} file has to altered. All references to \mcode{m32} have to be removed and the \mcode{--DWORDS\_BIGENDIAN} flag has to be added to the \mcode{CFLAGS} variable. This has to be done everytime when configurating the application for MicroBlaze.
-
-After doing this, the application now can be 'made' for MicroBlaze by first moving to the Scratchbox 2 environment for MicroBlaze and then execute the \mcode{make} command. Fig. \ref{fig:lelijk} shows a block diagram of both the platforms.
-
-% -- Plaatje Practicum Evnvironments ------------------------------
-\begin{figure}[htb]%
-\centering
-\includegraphics[width=300px]{Pictures/Platform_paint}%
-\caption{Block diagram of the Virtual Machine and the ERA platform}%
-\label{fig:lelijk}%
-\end{figure}
-
-In order to run the application on the MicroBlaze host processor, the \mcode{x264} executable must be compressed along with an input stream in a \mcode{tar.gz} file. This file can be put, via the FPGA host machine, on one of the three FPGAs using the \mcode{scp}, \mcode{ftp} and \mcode{put} command. For the programmer to connect to the development board, one must use the \mcode{ssh} and \mcode{telnet} command. See also fig \ref{fig:hoppen}.
-
-% -- Plaatje Ubuntu-commando's ------------------------------
-\begin{figure}[htb]%
-\centering
-\includegraphics[width=300px]{Pictures/hop}%
-\caption{Ubuntu commands for putting files on and navigating to the FPGAs}%
-\label{fig:hoppen}%
-\end{figure}
-
-For the first lab, the \mcode{satd\_8x4} kernel has to be:
-\begin{itemize}
-	\item extracted into a separate file
-	\item supplemented to a proper .c file which can be compiled and run using the $\rho$-VEX
-	\item included in the makefile that creates a bytecode and bytedata file of the kernel
-	\item debugged
-\end{itemize}
-
-Looking back, the debugging part has been chasing us all the way through the lab. Not only did we suffer from bugs in our source code, the $\rho$-VEX itself did also have shortcomings that had to be circumvented by downloading several fixes, competing for FPGA availability and break downs of the entire host machine due to unsufficient capacity for the amount of students.
-
-<<<<<<< HEAD
-\subsection{Memory layout of the MicroBlaze}
 
 When writing pixels to the $\rho$-VEX for SATD calculation, these pixels need to be picked from the MicroBlaze memory. However, these pixels are not written as one block of contiguous bytes. Rows of four bytes (MicroBlaze has 32-bit registers) are interrupted by a fixed amount of memory called a stride. This value is often given in bytes to be skipped in order to continue reading the particular data file. Figure \ref{fig:stride} shows the concept of strides for two pixels from the MicroBlaze memory, which are splitted into two rows of 4 bytes since a pixels consists of eight bytes. When writing data to the $\rho$-VEX memory we use a stride of four bytes, resulting in a configuration as shown in \ref{fig:testpixels}
-
 % -- Plaatje Stride ------------------------------
 
 \begin{figure}[htb]
@@ -103,5 +64,39 @@ When writing pixels to the $\rho$-VEX for SATD calculation, these pixels need to
 \caption{MicroBlaze memory using strides to split up data files}%
 \label{}%
 \end{figure}
-=======
->>>>>>> e01176ab8af6926d29fe7ce71d0e98f59f211815
+
+\subsection{Executing an Application on the Development Board and $\rho$-VEX}
+\label{sec:executing}
+When executing \mcode{./configure}, a file is created for configuration of the application. However, the resulting \mcode{config.mak} file is made for applications running on the guest (Ubuntu). In order to configure for MicroBlaze, the \mcode{config.mak} file has to altered. All references to \mcode{m32} have to be removed and the \mcode{--DWORDS\_BIGENDIAN} flag has to be added to the \mcode{CFLAGS} variable. This has to be done everytime when configurating the application for MicroBlaze.
+
+After doing this, the application now can be 'made' for MicroBlaze by first moving to the Scratchbox 2 environment for MicroBlaze and then execute the \mcode{make} command. Fig. \ref{fig:lelijk} shows a block diagram of both the platforms.
+
+% -- Plaatje Practicum Evnvironments ------------------------------
+\begin{figure}[htb]%
+\centering
+\includegraphics[width=300px]{Pictures/platform}%
+\caption{Block diagram of the Virtual Machine and the ERA platform}%
+\label{fig:lelijk}%
+\end{figure}
+
+In order to run the application on the MicroBlaze host processor, the \mcode{x264} executable must be compressed along with an input stream in a \mcode{tar.gz} file. This file can be put, via the FPGA host machine, on one of the three FPGAs using the \mcode{scp}, \mcode{ftp} and \mcode{put} command. For the programmer to connect to the development board, one must use the \mcode{ssh} and \mcode{telnet} command. See also fig \ref{fig:hoppen}.
+
+
+% -- Plaatje Ubuntu-commando's ------------------------------
+\begin{figure}[htb]%
+\centering
+\includegraphics[width=300px]{Pictures/hoprecht}%
+\caption{Ubuntu commands for putting files on and navigating to the FPGAs}%
+\label{fig:hoppen}%
+\end{figure}
+
+For the first lab, the \mcode{satd\_8x4} kernel has to be:
+\begin{itemize}
+	\item extracted into a separate file
+	\item supplemented to a proper .c file which can be compiled and run using the $\rho$-VEX
+	\item included in the makefile that creates a bytecode and bytedata file of the kernel
+	\item debugged
+\end{itemize}
+
+Looking back, the debugging part has been chasing us all the way through the lab. Not only did we suffer from bugs in our source code, the $\rho$-VEX itself did also have shortcomings that had to be circumvented by downloading several fixes, competing for FPGA availability and break downs of the entire host machine due to unsufficient capacity for the amount of students.
+
