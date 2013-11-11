@@ -1,15 +1,16 @@
 % -- Introduction ---------------------------------------
-
 \section{Introduction}
+For the lab a computational intensive kernel has to be extracted from the \mcode{x264} software application: a free software library for encoding video stream into H.236/MPEG-4 AVC format. It is able to use Periodic Intra Refresh instead of keyframes as used by h.264, refreshing the image of the video by moving a column of intra blocks from one side of the screen to the other. This hides the refreshing effect from the user while the frame loads. The \mcode{x264} application is executed on a FPGA running a MicroBlaze host processor. By running the particular kernel on the $\rho$-VEX co-processor, the execution time can be decreased by making use of parallel processing. 
 
-For the lab a computational intensive kernel has to be extracted from a \mcode{x264} software application, a free software library for encoding video stream into H.236/MPEG-4 AVC format. It is able to use Periodic Intra Refresh instead of keyframes (which is used by h.264), refreshing the image of the video by moving a column of intra blocks from one side of the screen to the other. This hides the refreshing effect from the user while the frame loads. The \mcode{x264} application is executed on a FPGA running a MicroBlaze host processor. By running the particular kernel on the $\rho$-VEX co-processor, the execution time can be decreased by making use of parallel processing. 
-\emph{Er is heel weinig informatie te vinden over de precieze werking van x264, aangezien er een patent opzit.}
+
+\section{The x264 application}
+* korte uitleg geven van x264 en plaatje* 
 
 \subsection{Detecting the Computationally Most Intensive Kernel}
-The first lab is meant to learn about the execution specifics of the application. A few input files are given to show the compile and run commands of the x264 application, by inserting a \mcode{.y4m} stream and creating a short \mcode{.mkv} movie. By adding the \mcode{gprof} flag to the compile command, a list is created of all functions ordered by their share of the total execution time (in percentage). Also the number of function calls is shown, as well as the total execution time for each input file. The input files exist of five \mcode{.y4m} files, varying in resolution (either 64x32 or 640x320 pixels) and amount of frames (either 1, 3, 8, 32 or 128).
+A few input files are provided in the first lab to show the compile and run commands of the x264 application. These \mcode{.y4m} input files can be decoded to create a short \mcode{.mkv} movie using this command in the terminal: \\
+\mcode{.\/x264 eledream\_64x32\_3.y4m -o testframe.mkv}. By adding the \mcode{gprof} flag to the compile command, a list is created of all functions ordered by their share of the total execution time (in percentage). The number of function calls is also shown, as well as the total execution time for each input file. These five input \mcode{.y4m} files, vary in resolution (either 64x32 or 640x320 pixels) and amount of frames (either 1, 3, 8, 32 or 128). Profiling the x264 execution for the \mcode{.y4m} files that are provided by the lab leads to the ranking show in table \ref{tab:chart}.
 
-Profiling the x264 execution for the \mcode{.y4m} files that are provided by the lab leads to the ranking show in table \ref{tab:chart}.
-
+% 
 % -- GPROF uitslagen ---------------------------------------
 \begin{table}[htb]%
 \centering
