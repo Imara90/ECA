@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.10)  11 NOV 2013 03:59
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.10)  11 NOV 2013 04:41
 entering extended mode
 **S:/School/Embedded*computer*architecture/ECA/Labreport/Labreport.tex
 ("S:/School/Embedded computer architecture/ECA/Labreport/Labreport.tex"
@@ -1176,6 +1176,9 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `typedef' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
@@ -1280,7 +1283,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 39.
 
-[2] <Pictures/stride.png, id=120, 281.25075pt x 334.851pt>
+<Pictures/stride.png, id=109, 281.25075pt x 334.851pt>
 File: Pictures/stride.png Graphic file (type png)
 
 <use Pictures/stride.png>
@@ -1291,7 +1294,7 @@ Overfull \hbox (9.63512pt too wide) in paragraph at lines 53--54
  [][][][] 
  []
 
-<Pictures/pixels_dmem.png, id=121, 339.669pt x 369.17924pt>
+<Pictures/pixels_dmem.png, id=110, 339.669pt x 369.17924pt>
 File: Pictures/pixels_dmem.png Graphic file (type png)
 
 <use Pictures/pixels_dmem.png>
@@ -1314,25 +1317,25 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 68.
 
-<Pictures/platform.png, id=124, 356.7729pt x 161.1621pt>
+[2] <Pictures/platform.png, id=121, 356.7729pt x 161.1621pt>
 File: Pictures/platform.png Graphic file (type png)
 
 <use Pictures/platform.png>
 Package pdftex.def Info: Pictures/platform.png used on input line 77.
 (pdftex.def)             Requested size: 301.1261pt x 136.03181pt.
- [3 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/stride.png
-> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/pixels_dmem.
-png> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/platform.
-png>]
-<Pictures/hoprecht.png, id=135, 320.1561pt x 45.0483pt>
+
+<Pictures/hoprecht.png, id=123, 320.1561pt x 45.0483pt>
 File: Pictures/hoprecht.png Graphic file (type png)
 
 <use Pictures/hoprecht.png>
 Package pdftex.def Info: Pictures/hoprecht.png used on input line 88.
 (pdftex.def)             Requested size: 301.1261pt x 42.37425pt.
-)
+ [3 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/stride.png
+> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/pixels_dmem.
+png> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/platform.
+png>])
 ("S:\School\Embedded computer architecture\ECA\Labreport\Sections/Approach.tex"
-<Pictures/dmem_rvex.png, id=137, 339.669pt x 369.17924pt>
+<Pictures/dmem_rvex.png, id=134, 339.669pt x 369.17924pt>
 File: Pictures/dmem_rvex.png Graphic file (type png)
 
 <use Pictures/dmem_rvex.png>
@@ -1344,7 +1347,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\lstinline' on input line 20.
 
 [4 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/hoprecht.pn
-g>]
+g> <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/dmem_rvex.p
+ng>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 25.
@@ -1369,8 +1373,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 46.
 
-[5 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/dmem_rvex.p
-ng>] <Pictures/imem.png, id=155, 402.90524pt x 157.18726pt>
+[5] <Pictures/imem.png, id=153, 402.90524pt x 157.18726pt>
 File: Pictures/imem.png Graphic file (type png)
 
 <use Pictures/imem.png>
@@ -1381,7 +1384,7 @@ Overfull \hbox (9.63512pt too wide) in paragraph at lines 56--57
  [][][][] 
  []
 
-<Pictures/dmem.png, id=156, 446.26724pt x 293.29575pt>
+<Pictures/dmem.png, id=154, 446.26724pt x 293.29575pt>
 File: Pictures/dmem.png Graphic file (type png)
  <use Pictures/dmem.png>
 Package pdftex.def Info: Pictures/dmem.png used on input line 63.
@@ -1391,7 +1394,7 @@ Overfull \hbox (9.63512pt too wide) in paragraph at lines 63--64
  [][][][] 
  []
 
-<Pictures/smem.png, id=157, 462.528pt x 325.81725pt>
+<Pictures/smem.png, id=155, 462.528pt x 325.81725pt>
 File: Pictures/smem.png Graphic file (type png)
  <use Pictures/smem.png>
 Package pdftex.def Info: Pictures/smem.png used on input line 70.
@@ -1418,27 +1421,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 [6 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/imem.png> <
 S:/School/Embedded computer architecture/ECA/Labreport/Pictures/dmem.png> <S:/S
 chool/Embedded computer architecture/ECA/Labreport/Pictures/smem.png>]
-<Pictures/hextest.png, id=170, 498.663pt x 92.14426pt>
+<Pictures/hextest.png, id=167, 498.663pt x 92.14426pt>
 File: Pictures/hextest.png Graphic file (type png)
 
 <use Pictures/hextest.png>
 Package pdftex.def Info: Pictures/hextest.png used on input line 39.
 (pdftex.def)             Requested size: 434.57898pt x 80.3003pt.
- [7 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/hextest.pn
-g>]
-<Pictures/little.png, id=181, 202.356pt x 30.1125pt>
+
+<Pictures/little.png, id=171, 202.356pt x 30.1125pt>
 File: Pictures/little.png Graphic file (type png)
  <use Pictures/little.png>
 Package pdftex.def Info: Pictures/little.png used on input line 57.
 (pdftex.def)             Requested size: 150.56305pt x 22.40648pt.
 
-<Pictures/big.png, id=182, 198.14024pt x 26.499pt>
+<Pictures/big.png, id=172, 198.14024pt x 26.499pt>
 File: Pictures/big.png Graphic file (type png)
  <use Pictures/big.png>
 Package pdftex.def Info: Pictures/big.png used on input line 64.
 (pdftex.def)             Requested size: 150.56305pt x 20.1374pt.
 
-<Pictures/byteswap.png, id=183, 265.59225pt x 89.133pt>
+<Pictures/byteswap.png, id=173, 265.59225pt x 89.133pt>
 File: Pictures/byteswap.png Graphic file (type png)
 
 <use Pictures/byteswap.png>
@@ -1446,7 +1448,8 @@ Package pdftex.def Info: Pictures/byteswap.png used on input line 71.
 (pdftex.def)             Requested size: 150.56305pt x 50.53159pt.
 )
 ("S:\School\Embedded computer architecture\ECA\Labreport\Sections/SecondKernel.
-tex"
+tex" [7 <S:/School/Embedded computer architecture/ECA/Labreport/Pictures/hextes
+t.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\lstinline' on input line 7.
@@ -1531,15 +1534,15 @@ Overfull \hbox (24.65001pt too wide) in paragraph at lines 102--103
  []
 
 [10]))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
  [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 
 ("S:\School\Embedded computer architecture\ECA\Labreport\Labreport.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: 6296404939525EF5D7C058A430500E25;1558.
+(rerunfilecheck)             Checksum: 5E12EA35B5E03EFB63E4376E06F878AD;1497.
 
 
 LaTeX Warning: There were undefined references.
@@ -1547,18 +1550,18 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 30364 strings out of 493921
- 626272 string characters out of 3147281
- 773342 words of memory out of 3000000
- 32923 multiletter control sequences out of 15000+200000
+ 30379 strings out of 493921
+ 626425 string characters out of 3147281
+ 771466 words of memory out of 3000000
+ 32938 multiletter control sequences out of 15000+200000
  17739 words of font info for 67 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  63i,39n,57p,2049b,2114s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\Imara
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk><C:/Pr
+ <C:\Users\Imara\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+tcrm1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fo
@@ -1574,9 +1577,9 @@ onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucr
 b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Labreport.pdf (11 pages, 426404 bytes).
+Output written on Labreport.pdf (11 pages, 424101 bytes).
 PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
+ 446 PDF objects out of 1000 (max. 8388607)
  189 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
