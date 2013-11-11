@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  11 NOV 2013 12:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  11 NOV 2013 13:00
 entering extended mode
  %&-line parsing enabled.
 **Essay_ECA.tex
@@ -473,27 +473,50 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
 )
 (./Subsections/Reconfigurable.tex
-<Pictures/reconfig.png, id=143, 884.55469pt x 555.57562pt>
+Underfull \hbox (badness 10000) in paragraph at lines 13--4
+
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 13--4
+\OT1/cmr/m/n/10 [[]] pro-poses the har-vest-ing of the full po-ten-
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 13--4
+\OT1/cmr/m/n/10 tial of dy-namic re-con-fig-u-ra-tion by care-fully
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 13--4
+\OT1/cmr/m/n/10 eval-u-at-ing the over-head of re-con-fig-u-ra-tion in
+ []
+
+<Pictures/reconfig.png, id=144, 884.55469pt x 555.57562pt>
 File: Pictures/reconfig.png Graphic file (type png)
 
 <use Pictures/reconfig.png>) (./Subsections/Evolvable.tex [3]
-<Pictures/3tier.png, id=157, 416.5161pt x 461.8053pt>
+<Pictures/3tier.png, id=158, 416.5161pt x 461.8053pt>
 File: Pictures/3tier.png Graphic file (type png)
- <use Pictures/3tier.png>)) (./Sections/Techniques.tex (./Subsections/Selfaware
-ness.tex)
-(./Subsections/Decisions.tex [4 <./Pictures/reconfig.png> <./Pictures/3tier.png
->]
+ <use Pictures/3tier.png>)) (./Sections/Techniques.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./Subsections/Selfawareness.tex [4 <./Pictures/reconfig.png> <./Pictures/3tier
+.png>]) (./Subsections/Decisions.tex
 Underfull \hbox (badness 2932) in paragraph at lines 9--10
 [][][]\OT1/cmr/m/n/10 Heuristics is the ap-pli-ca-tion of experience-
  []
 
 ) (./Subsections/Selfadapting.tex
-<Pictures/self-aware.PNG, id=177, 374.3586pt x 232.2276pt>
+<Pictures/self-aware.PNG, id=178, 374.3586pt x 232.2276pt>
 File: Pictures/self-aware.PNG Graphic file (type png)
 
-<use Pictures/self-aware.PNG>) (./Subsections/Hardwaretechniques.tex [5 <./Pict
-ures/self-aware.PNG>]
-<Pictures/2D_architecture.png, id=192, 406.6392pt x 273.4215pt>
+<use Pictures/self-aware.PNG>) (./Subsections/Hardwaretechniques.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./Pictures/self-aware.PNG>]
+<Pictures/2D_architecture.png, id=191, 406.6392pt x 273.4215pt>
 File: Pictures/2D_architecture.png Graphic file (type png)
 
 <use Pictures/2D_architecture.png>
@@ -501,35 +524,26 @@ Underfull \hbox (badness 5985) in paragraph at lines 11--11
 []\OT1/cmr/m/n/10 Figure 4: |High-level struc-ture of a Two-
  []
 
-<Pictures/candidate.png, id=200, 368.3361pt x 404.4711pt>
+<Pictures/candidate.png, id=199, 368.3361pt x 404.4711pt>
 File: Pictures/candidate.png Graphic file (type png)
 
-<use Pictures/candidate.png>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./Pictures/2D_architecture.png> <./Pictures/candidate.png>]
-<Pictures/PE.png, id=214, 369.7815pt x 393.3897pt>
+<use Pictures/candidate.png> [6 <./Pictures/2D_architecture.png>]
+<Pictures/PE.png, id=215, 369.7815pt x 393.3897pt>
 File: Pictures/PE.png Graphic file (type png)
  <use Pictures/PE.png>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[7 <./Pictures/candidate.png> <./Pictures/PE.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 [][][]\OT1/cmr/m/n/10 Finally, the inter-module com-mu-ni-ca-tion
  []
 
-[7 <./Pictures/PE.png>]
-<Pictures/erlangen.png, id=231, 463.2507pt x 321.8424pt>
+<Pictures/erlangen.png, id=232, 463.2507pt x 321.8424pt>
 File: Pictures/erlangen.png Graphic file (type png)
 
 <use Pictures/erlangen.png>)) (./Sections/Proposition.tex
 (./Subsections/HW_Proposal.tex) (./Subsections/SW_Proposal.tex))
-(./Sections/Related.tex (./Subsections/QuantativeAimee.tex
-Underfull \vbox (badness 3954) has occurred while \output is active []
-
- [8 <./Pictures/erlangen.png>]) (./Subsections/POE.tex)) (./Sections/Conclusion
-.tex)
-[9] (./Essay_ECA.bbl
+(./Sections/Related.tex [8 <./Pictures/erlangen.png>]
+(./Subsections/QuantativeAimee.tex) (./Subsections/POE.tex))
+(./Sections/Conclusion.tex [9]) (./Essay_ECA.bbl
 Underfull \hbox (badness 5504) in paragraph at lines 24--29
 [][][]\OT1/cmr/m/n/10 H. Hoff-man F. Sironi, A. Cuoc-cio and
  []
@@ -559,9 +573,9 @@ b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share
 /texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texl
 ive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb>
-Output written on Essay_ECA.pdf (10 pages, 811422 bytes).
+Output written on Essay_ECA.pdf (10 pages, 811596 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
+ 312 PDF objects out of 1000 (max. 8388607)
  47 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
