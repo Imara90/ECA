@@ -1,3 +1,10 @@
 % --- SW Proposal --------------------------------------------
+\subsection{Proposed Software}
+\label{sec:prosoftware}
+The evolvable framework co-designed with the proposed hardware has to include a monitoring technique, a decision making engine and an adaptation framwork. The Evolutionary Framework proposed in \cite{PDR} is based on an evolutionary algorithm that uses static input data files as reference for its evolution. This section proposed an adaptable fully autonomous system on top of our heterogeneous architecture. 
 
-*** SW proposal ***
+The \emph{HeartBeats application} is proposed as the monitoring technique as it enables the system to predefine performance goals and delivers real-time information to the decision engine. This will introduce a moderate overhead by initializing the data structures which will relatively decrease when dealing with larger complex systems. This is acceptable as Section \ref{sec:codesign} displayed that the use of evolvable system only becomes valid when working with these complex systems. This run-time information will support an agile self-aware system. 
+
+The monitoring system will feed the performance information to the decision engine. Inspired by the PDR methods a partial dynamic model is proposed. A combination of an \emph{analytical} and \emph{empirical model} will enhance the initial performance of the system as it has priorly developed knowledge in the analytical model. The empirical model can take over when performance goes out-of -bounds to handle unexpected behavior. 
+
+PDR will reduce the amount of overhead introduced by reconfiguration during self-adapting. However a framework to adapt, or switch between implementations of functionalities still has to be provided. The \emph{Implementation Switch Service} inspired by the \emph{hot-swap mechanism} as proposed in \cite{selfaware} solves the state quiescence and state translation and thus completes the proposed evolvable framework.
