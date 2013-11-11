@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.3)  11 NOV 2013 00:53
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.3)  11 NOV 2013 02:14
 entering extended mode
 **C:/Users/Aimee/ECA/Labreport/Labreport.tex
 (C:/Users/Aimee/ECA/Labreport/Labreport.tex
@@ -1118,6 +1118,9 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
@@ -1228,24 +1231,42 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 45.
 
-<Pictures/Platform_paint.png, id=105, 633.567pt x 333.6465pt>
+<Pictures/Platform_paint.png, id=113, 633.567pt x 333.6465pt>
 File: Pictures/Platform_paint.png Graphic file (type png)
 
 <use Pictures/Platform_paint.png> [2]
-<Pictures/hop.png, id=116, 563.10374pt x 201.1515pt>
+<Pictures/hop.png, id=124, 563.10374pt x 201.1515pt>
 File: Pictures/hop.png Graphic file (type png)
  <use Pictures/hop.png>
 [3 <C:/Users/Aimee/ECA/Labreport/Pictures/Platform_paint.png (PNG copy)> <C:/Us
-ers/Aimee/ECA/Labreport/Pictures/hop.png (PNG copy)>])
-(C:\Users\Aimee\ECA\Labreport\Sections/Approach.tex
-<Pictures/dmem_rvex.png, id=124, 408.92775pt x 479.99326pt>
+ers/Aimee/ECA/Labreport/Pictures/hop.png (PNG copy)>]
+<Pictures/stride.png, id=132, 281.25075pt x 334.851pt>
+File: Pictures/stride.png Graphic file (type png)
+
+<use Pictures/stride.png>
+Overfull \hbox (9.63512pt too wide) in paragraph at lines 89--90
+ [][][][] 
+ []
+
+<Pictures/pixels_dmem.png, id=133, 339.669pt x 369.17924pt>
+File: Pictures/pixels_dmem.png Graphic file (type png)
+
+<use Pictures/pixels_dmem.png>
+Overfull \hbox (9.63512pt too wide) in paragraph at lines 96--97
+ [][][][] 
+ []
+
+) (C:\Users\Aimee\ECA\Labreport\Sections/Approach.tex
+<Pictures/dmem_rvex.png, id=137, 339.669pt x 369.17924pt>
 File: Pictures/dmem_rvex.png Graphic file (type png)
 
 <use Pictures/dmem_rvex.png>
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lstinline' on input line 20.
+(hyperref)                removing `\lstinline' on input line 21.
 
+[4 <C:/Users/Aimee/ECA/Labreport/Pictures/stride.png (PNG copy)> <C:/Users/Aime
+e/ECA/Labreport/Pictures/pixels_dmem.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 26.
@@ -1258,68 +1279,70 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 26.
 
-[4] [5 <C:/Users/Aimee/ECA/Labreport/Pictures/dmem_rvex.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 48.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rho' on input line 48.
+(hyperref)                removing `math shift' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 48.
+(hyperref)                removing `\rho' on input line 47.
 
 
-LaTeX Warning: Reference `eq:imem' on page 6 undefined on input line 50.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 47.
 
-
-LaTeX Warning: Reference `eq:dmem' on page 6 undefined on input line 50.
-
-<Pictures/imem.png, id=135, 402.90524pt x 157.18726pt>
+[5 <C:/Users/Aimee/ECA/Labreport/Pictures/dmem_rvex.png>]
+<Pictures/imem.png, id=155, 402.90524pt x 157.18726pt>
 File: Pictures/imem.png Graphic file (type png)
  <use Pictures/imem.png>
-Overfull \hbox (9.63512pt too wide) in paragraph at lines 56--57
+Overfull \hbox (9.63512pt too wide) in paragraph at lines 55--56
  [][][][] 
  []
 
-<Pictures/dmem.png, id=136, 446.26724pt x 293.29575pt>
+<Pictures/dmem.png, id=156, 446.26724pt x 293.29575pt>
 File: Pictures/dmem.png Graphic file (type png)
  <use Pictures/dmem.png>
-Overfull \hbox (9.63512pt too wide) in paragraph at lines 63--64
+Overfull \hbox (9.63512pt too wide) in paragraph at lines 62--63
  [][][][] 
  []
 
-<Pictures/smem.png, id=137, 462.528pt x 325.81725pt>
+<Pictures/smem.png, id=157, 462.528pt x 325.81725pt>
 File: Pictures/smem.png Graphic file (type png)
  <use Pictures/smem.png>
-Overfull \hbox (9.63512pt too wide) in paragraph at lines 70--71
+Overfull \hbox (9.63512pt too wide) in paragraph at lines 69--70
  [][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 79.
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 78.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [6 <C:/Users/Aimee/ECA/Labreport/Pictures/imem.png (PNG copy)> <C:/Users/Aime
-e/ECA/Labreport/Pictures/dmem.png (PNG copy)> <C:/Users/Aimee/ECA/Labreport/Pic
-tures/smem.png (PNG copy)>]) (C:\Users\Aimee\ECA\Labreport\Sections/Implementat
-ion.tex
-<Pictures/testpixels.png, id=147, 397.485pt x 162.6075pt>
+))
+(C:\Users\Aimee\ECA\Labreport\Sections/Implementation.tex [6 <C:/Users/Aimee/EC
+A/Labreport/Pictures/imem.png (PNG copy)> <C:/Users/Aimee/ECA/Labreport/Picture
+s/dmem.png (PNG copy)> <C:/Users/Aimee/ECA/Labreport/Pictures/smem.png (PNG cop
+y)>] <Pictures/testpixels.png, id=165, 397.485pt x 162.6075pt>
 File: Pictures/testpixels.png Graphic file (type png)
 
 <use Pictures/testpixels.png>
-<Pictures/hextest.png, id=148, 498.663pt x 92.14426pt>
+Overfull \hbox (66.2486pt too wide) in paragraph at lines 24--25
+ [][][][] 
+ []
+
+<Pictures/hextest.png, id=166, 498.663pt x 92.14426pt>
 File: Pictures/hextest.png Graphic file (type png)
 
-<use Pictures/hextest.png> [7 <C:/Users/Aimee/ECA/Labreport/Pictures/testpixels
-.png (PNG copy)> <C:/Users/Aimee/ECA/Labreport/Pictures/hextest.png (PNG copy)>
-] <Pictures/little.png, id=159, 202.356pt x 30.1125pt>
-File: Pictures/little.png Graphic file (type png)
+<use Pictures/hextest.png>
+Overfull \hbox (66.2486pt too wide) in paragraph at lines 31--32
+ [][][][] 
+ []
 
-<use Pictures/little.png>
+[7 <C:/Users/Aimee/ECA/Labreport/Pictures/testpixels.png (PNG copy)> <C:/Users/
+Aimee/ECA/Labreport/Pictures/hextest.png (PNG copy)>]
+<Pictures/little.png, id=177, 202.356pt x 30.1125pt>
+File: Pictures/little.png Graphic file (type png)
+ <use Pictures/little.png>
 ! Extra }, or forgotten \endgroup.
-l.49 		\caption{Little Endian}}
+l.54 		\caption{Little Endian}}
                                
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1327,16 +1350,16 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Pictures/big.png, id=160, 198.14024pt x 26.499pt>
+<Pictures/big.png, id=178, 198.14024pt x 26.499pt>
 File: Pictures/big.png Graphic file (type png)
  <use Pictures/big.png>
-<Pictures/byteswap.png, id=161, 265.59225pt x 89.133pt>
+<Pictures/byteswap.png, id=179, 265.59225pt x 89.133pt>
 File: Pictures/byteswap.png Graphic file (type png)
 
 <use Pictures/byteswap.png>
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lstinline' on input line 70.
+(hyperref)                removing `\lstinline' on input line 75.
 
 ) (C:\Users\Aimee\ECA\Labreport\Sections/SecondKernel.tex [8 <C:/Users/Aimee/EC
 A/Labreport/Pictures/little.png (PNG copy)> <C:/Users/Aimee/ECA/Labreport/Pictu
@@ -1428,20 +1451,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
  (C:\Users\Aimee\ECA\Labreport\Labreport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: E69EDD2CBBF0B8BC42A25DDE27EB6B66;1529.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 3BFCBBD07D626DEB86DDFD8E498A09B5;1693.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27427 strings out of 494019
- 563357 string characters out of 3143883
- 727692 words of memory out of 3000000
- 29959 multiletter control sequences out of 15000+200000
+ 27446 strings out of 494019
+ 563749 string characters out of 3143883
+ 731902 words of memory out of 3000000
+ 29973 multiletter control sequences out of 15000+200000
  17739 words of font info for 67 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  63i,39n,57p,2023b,1914s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1465,9 +1485,9 @@ blic/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/cm-super/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/cou
 rier/ucrb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr
 8a.pfb>
-Output written on Labreport.pdf (11 pages, 439482 bytes).
+Output written on Labreport.pdf (11 pages, 460954 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 187 named destinations out of 1000 (max. 500000)
- 228 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 190 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

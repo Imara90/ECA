@@ -16,7 +16,7 @@ Profiling the x264 execution for the \mcode{.y4m} files that are provided by the
 \small
 	\begin{tabular}{lclll}
 		\centering
-		\bf{Input file} & \bf{Time (sec)} 	& \bf{Share ($\%$)} & \bf{Calls}	& \bf{Kernel name} \\ \cline{1-4}
+		\bf{Input file} & \bf{Time (sec)} 	& \bf{Share ($\%$)} & \bf{Calls}	& \bf{Kernel name} \\ \cline{1-5}
 		\multirow{3}{*}{eledream\_32x18\_1.y4m}	&				& 100.00	& 71		&	x264\_analyse\_init\_costs\\ 
 																						&	0.02	& 0.00 		& 1646	&	x264\_free\\ 
 																						&				& 0.00		& 784		&	x264\_cabac\_encode\_desicion\_c\\ \cline{1-5}
@@ -50,7 +50,8 @@ After doing this, the application now can be 'made' for MicroBlaze by first movi
 
 % -- Plaatje Practicum Evnvironments ------------------------------
 \begin{figure}[htb]%
-\includegraphics[width=\columnwidth]{Pictures/Platform_paint}%
+\centering
+\includegraphics[width=300px]{Pictures/Platform_paint}%
 \caption{Block diagram of the Virtual Machine and the ERA platform}%
 \label{fig:lelijk}%
 \end{figure}
@@ -59,7 +60,8 @@ In order to run the application on the MicroBlaze host processor, the \mcode{x26
 
 % -- Plaatje Ubuntu-commando's ------------------------------
 \begin{figure}[htb]%
-\includegraphics[width=\columnwidth]{Pictures/hop}%
+\centering
+\includegraphics[width=300px]{Pictures/hop}%
 \caption{Ubuntu commands for putting files on and navigating to the FPGAs}%
 \label{fig:hoppen}%
 \end{figure}
@@ -76,5 +78,25 @@ Looking back, the debugging part has been chasing us all the way through the lab
 
 \subsection{Memory layout of the MicroBlaze}
 
-When writing pixels to the $\rho$-VEX for SATD calculation, these pixels need to be picked from the MicroBlaze memory. However, these pixels are not written as one block of contiguous bytes. Rows of four bytes (MicroBlaze has 32-bit registers) are interrupted by a fixed amount of memory called a stride.
+When writing pixels to the $\rho$-VEX for SATD calculation, these pixels need to be picked from the MicroBlaze memory. However, these pixels are not written as one block of contiguous bytes. Rows of four bytes (MicroBlaze has 32-bit registers) are interrupted by a fixed amount of memory called a stride. This value is often given in bytes to be skipped in order to continue reading the particular data file. Figure \ref{fig:stride} shows the concept of strides for two pixels from the MicroBlaze memory, which are splitted into two rows of 4 bytes since a pixels consists of eight bytes. When writing data to the $\rho$-VEX memory we use a stride of four bytes, resulting in a configuration as shown in \ref{fig:testpixels}
 
+% -- Plaatje Stride ------------------------------
+
+\begin{figure}[htb]
+	\centering
+	\begin{subfigure}{0.3\textwidth}
+		\centering
+		\includegraphics[width=150px]{Pictures/stride}
+		\caption{Large unknown stride}
+		\label{fig:stride}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}{0.3\textwidth}
+		\centering
+		\includegraphics[width=150px]{Pictures/pixels_dmem}
+		\caption{Stride of four bytes}
+		\label{fig:testpixels}
+	\end{subfigure}
+\caption{MicroBlaze memory using strides to split up data files}%
+\label{}%
+\end{figure}
