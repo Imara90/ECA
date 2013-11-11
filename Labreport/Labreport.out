@@ -1,19 +1,19 @@
-\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Exploring the x264 application}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Detecting the Computationally Most Intensive Kernel}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{The [basicstyle=]|pixelsatd8x4| kernel}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{Memory layout of the MicroBlaze}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.4}{Executing an Application on the Development Board and -VEX}{section.2}% 6
-\BOOKMARK [1][-]{section.3}{Approach}{}% 7
-\BOOKMARK [2][-]{subsection.3.1}{Adjusting the [basicstyle=]|makefile|}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.2}{Constraints of the -VEX}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.3}{Communication between the MicroBlaze and the -VEX}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.4}{Result Hyphothesis}{section.3}% 11
-\BOOKMARK [1][-]{section.4}{Implementation}{}% 12
-\BOOKMARK [2][-]{subsection.4.1}{Mock up pixels}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.2}{Issues with the fix}{section.4}% 14
-\BOOKMARK [2][-]{subsection.4.3}{Endianness}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.4}{Reliability of the code}{section.4}% 16
-\BOOKMARK [1][-]{section.5}{Extracting a Second Kernel}{}% 17
-\BOOKMARK [2][-]{subsection.5.1}{Extract [basicstyle=]|pixelsatd4x4|}{section.5}% 18
-\BOOKMARK [1][-]{section.6}{Evaluation}{}% 19
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{Exploring the x264 application}{}
+\BOOKMARK [2][-]{subsection.2.1}{Detecting the Computationally Most Intensive Kernel}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{The [basicstyle=]|pixelsatd8x4| kernel}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{Memory layout of the MicroBlaze}{section.2}
+\BOOKMARK [2][-]{subsection.2.4}{Executing an Application on the Development Board and -VEX}{section.2}
+\BOOKMARK [1][-]{section.3}{Approach}{}
+\BOOKMARK [2][-]{subsection.3.1}{Adjusting the [basicstyle=]|makefile|}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Constraints of the -VEX}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Communication between the MicroBlaze and the -VEX}{section.3}
+\BOOKMARK [2][-]{subsection.3.4}{Result Hyphothesis}{section.3}
+\BOOKMARK [1][-]{section.4}{Implementation}{}
+\BOOKMARK [2][-]{subsection.4.1}{Mock up pixels}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Issues with the fix}{section.4}
+\BOOKMARK [2][-]{subsection.4.3}{Endianness}{section.4}
+\BOOKMARK [2][-]{subsection.4.4}{Reliability of the code}{section.4}
+\BOOKMARK [1][-]{section.5}{Extracting a Second Kernel}{}
+\BOOKMARK [2][-]{subsection.5.1}{Extract [basicstyle=]|pixelsatd4x4|}{section.5}
+\BOOKMARK [1][-]{section.6}{Evaluation}{}
