@@ -1,9 +1,9 @@
 % -- Evaluation ---------------------------------------
 \section{Evaluation}
 
-As was to be expected in a lab of 60 students and 3 FPGAs there was no speedup compared to the initial \mcode{x264} application. However we still stick to our result hypothesis that when choosing a relative kernel that does not spend too much time in communication a definite speedup can be achieved as discussed in Section \ref{sec:second}. We did gain some insight in comparing the time spend when executing the application using a single or using two bytecodes. 
+As was to be expected in a lab of 60 students and 3 FPGAs there was no speed up compared to the initial \mcode{x264} application. However, we still stick to our result hypothesis that when choosing a kernel that does not spend too much time in communication a definite speed up can be achieved as discussed in Section \ref{sec:second}. We did gain some insight in comparing the time spend when executing the application using a single or using two bytecodes. 
 
-\mcode{time ./x264 eledream_64x32_3.y4m -o testtime.mkv} provides a nice overview of the time spend in the application. We measured both times and these were the result. 
+\mcode{time ./x264 eledream_64x32_3.y4m -o testtime.mkv} provides a nice overview of the time spend in the application. Both implementations are measured and put in table \ref{tab:time}.
 
 % -- Results ---------------------------------------
 \begin{table}[htb]%
@@ -15,10 +15,10 @@ As was to be expected in a lab of 60 students and 3 FPGAs there was no speedup c
 	\mcode{sys}				& \mcode{1m 17.39s}					& \mcode{1m 14.68s}\\
 \end{tabular}
 \caption{Execution times of the \mcode{x264} application variating in bytecodes}
-\label{typedef}
+\label{tab:time}
 \end{table}
 
-We would have liked to achieve some sort of speed up that would actually benefit the initial application. However concerning the (amount of) tools and time that was handed to us we considered we did fairly well. We learned a lot from this lab, but some better guiding in the available information about fixes or limitations in compiling would have been appreciated prior to the lab. 
+We would have liked to achieve some sort of speed up that would actually benefit the initial application. However, concerning the (amount of) tools and time that was handed to us we considere to have done fairly well. We learned a lot from this lab, but some better guiding in the available information about fixes or limitations in compiling would have been appreciated prior to the lab. 
 %
 %\begin{itemize}
 %	\item How much speedup did you obtain?
