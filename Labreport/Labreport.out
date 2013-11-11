@@ -1,10 +1,10 @@
 \BOOKMARK [1][-]{section.1}{Wat moet er nog gebeuren}{}% 1
 \BOOKMARK [1][-]{section.2}{Introduction}{}% 2
-\BOOKMARK [1][-]{section.3}{The x264 application}{}% 3
+\BOOKMARK [1][-]{section.3}{Exploring the x264 application}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Detecting the Computationally Most Intensive Kernel}{section.3}% 4
 \BOOKMARK [2][-]{subsection.3.2}{The [basicstyle=]|pixelsatd8x4| kernel}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.3}{Executing an Application on the Development Board and -VEX}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.4}{Memory layout of the MicroBlaze}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Memory layout of the MicroBlaze}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Executing an Application on the Development Board and -VEX}{section.3}% 7
 \BOOKMARK [1][-]{section.4}{Approach}{}% 8
 \BOOKMARK [2][-]{subsection.4.1}{Adjusting the [basicstyle=]|makefile|}{section.4}% 9
 \BOOKMARK [2][-]{subsection.4.2}{Constraints of the -VEX}{section.4}% 10
