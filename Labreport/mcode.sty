@@ -21,7 +21,7 @@
 %%          \end{lstlisting}
 %%
 %%
-%%   2) Inline object:
+%%   2) Inline object*:
 %%
 %%          Bla bla \mcode{CODEFRAGMENT} bla bla.
 %%
@@ -58,6 +58,9 @@
 %%   For example, you may use \usepackage[numbered,framed]{mcode}
 %%   in your document preamble.
 %%   
+%%   * If you want to place  some inline code in a footnote,  use
+%%   \mcodefn{} instead (this will reduce the font size a bit).
+%%
 %%   Note:  Inside code blocks you  can escape to LaTeX text mode
 %%   using §...§.  For ex. §text and some math: $x^2$§,  which is
 %%   especially  useful  in comments  for putting  nicely typeset
@@ -75,6 +78,7 @@
 %%      Florian Knorn | florian@knorn.org | www.florian-knorn.com
 %%
 %%   Version history:
+%%      2.4  --  Added \mcodefn{} command (thanks Tony Almeida)
 %%      2.3  --  More keywords (thanks Dominik Wild!)
 %%      2.2  --  Bugfix (thanks Willi Gerbig!)
 %%      2.1  --  Finally automatic detection between end and end
@@ -93,8 +97,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %              D O N ' T    T O U C H    T H I S                %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\def\fileversion{2.3}
-\def\filedate{2012/08/31}
+\def\fileversion{2.4}
+\def\filedate{2013/11/05}
 
 \typeout{-- Package: `mcode' \fileversion\space <\filedate> --}
 \NeedsTeXFormat{LaTeX2e}
@@ -139,6 +143,9 @@
 % This command allows you to typeset syntax highlighted Matlab
 % code ``inline''.  The font size \small seems to look best...
 \newcommand{\mcode}[1]{\lstinline[basicstyle=\lstbasicfont\small]|#1|}
+
+% Same, but for footnotes
+\newcommand{\mcodefn}[1]{\lstinline[basicstyle=\lstbasicfont\footnotesize]|#1|}
 
 % check if color command exists
 \ifx\color\undefined%
