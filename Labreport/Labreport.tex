@@ -50,7 +50,7 @@ Instructor: & Ir. A. Brandon % Instructor/supervisor
 \end{center}
 
  \begin{abstract}
-During this lab, we are speeding up the \mcode{x264} application by extracting the \mcode{pixel\_satd\_8x4} and the \mcode{pixel\_satd\_4x4} kernel for parallel processing on a $\rho$-VEX co-processor. This involves running the \mcode{x264} application on a FPGA which runs a MicroBlaze operating system. The required instructions and data for the extracted kernels is being written to the instruction- and data memory of the $\rho$-VEX. This lab report describes in detail our chosen approach, problems we encountered along the way, test results measuring the execution time before and after extracting the kernels and an overal evaluation.
+During this lab, we are speeding up the \mcode{x264} application by extracting the \mcode{pixel\_satd\_8x4} and the \mcode{pixel\_satd\_4x4} kernel for parallel processing on a $\rho$-VEX co-processor. This involves running the x264 application on an FPGA which runs a MicroBlaze operating system. The required instructions and data for the extracted kernels is being written to the instruction and data memory of the $\rho$-VEX. This lab report describes in detail our chosen approach, problems we encountered along the way, measuremnets of the execution time before and after extracting the kernels and an overal evaluation.
  \end{abstract}
 
 %----------------------------------------------------------------------------------------
@@ -68,8 +68,8 @@ During this lab, we are speeding up the \mcode{x264} application by extracting t
 \input{Sections/SecondKernel}
 \input{Sections/Evaluation}
 
-\appendix
-\input{Appendices/SATD}
+%\appendix
+%\input{Appendices/SATD}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
